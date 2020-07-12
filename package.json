@@ -10,13 +10,14 @@
   "devDependencies": {
     "eslint": "^6.8.0",
     "eslint-config-aqua": "^7.2.3",
+    "jest": "^26.1.0",
     "nodemon": "^2.0.3"
   },
   "scripts": {
     "serve": "$(npm bin)/nodemon src/main.js",
     "start": "echo \"Pas de web, heroku de malheur\"",
     "lint": "$(npm bin)/eslint src/**/*",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "eslintConfig": {
     "extends": "aqua"

@@ -1,4 +1,5 @@
 const is_word_exist = (word, dictionnary) => undefined !== dictionnary[word];
+
 function return_image(word, config) {
   if (!is_word_exist(word, config.DICTIONARY)) {
     return undefined
