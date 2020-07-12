@@ -1,4 +1,15 @@
 ﻿exports.DICTIONARY = {
+  'aji': {
+    'def': 'Signifie littéralement gout, mais désigne plutôt l’arrière goût par exemple d’une pierre capturée dont la présence même perturbe notre formation.\nPlus généralement il désigne toutes les possibilitées ou le potentiel restant dans une position.\nDans l\'exemple, la pierre marquée bien que capturée et abimée par un angle plein possède encore beaucoup d\’adji. Dans des conditions favorables avec de la force autour de B, noir peut faire revivre sa pierre avec un coup en A',
+    'image': 'https://zupimages.net/up/20/28/dgqp.png',
+    'cat': [ 'galere']
+  },
+  'ajikeshi ': {
+    'def': 'Se dit d\'un mauvais coup qui supprime ou diminue l\'adj d’une position, c’est à dire d\'éventuel développement résiduel qui aurait pu perturber la formation de l\'adversaire\nDans l\’exemple, l\'atari marqué est ajikeshi car une fois que noir connecte, cela supprime tout aji résiduel de la faiblesse en A que blanc aurait pu utiliser.',
+    'image': 'https://zupimages.net/up/20/28/yr06.png',
+    'cat': ['mauvaise forme']
+  },
+ 
   'angle vide': {
     'def': '(mauvaise) Forme constituée de trois pierres formant un angle… vide.',
     'image': 'https://zupimages.net/up/20/28/o4b3.png',
@@ -8,6 +19,20 @@
     'def': 'Situation où une ou plusieurs pierres n’ont plus qu’une seule liberté. On dit que le coup 1 met la pierre blanches en atari.',
     'image': 'https://zupimages.net/up/20/28/yydk.png',
     'cat': ['forme', 'mauvaise forme', 'liberte']
+  },
+  'atekomi': {
+    'def': 'Signifie littéralement calage.\nOn utilise ce mot pour désigner un coup calé au contact de deux pierres ennemies en diagonale, c’est à dire vulgairement un coup qui tente de briser un kosumi ennemis.\nL\’exemple montre que l\’atekomi peut être un kikashi (bon échange) comme en 1 pour préparer l’autre atekomi en 3 qui est un tesuji de capture.',
+    'image': 'https://zupimages.net/up/20/28/v9ho.png',
+    'cat': ['forme']
+  },
+  'bambou': {
+    'def': 'Bonne forme très solide constitué de deux nobi disposé parallèlement.\nLes deux nobi sont virtuellement connectés entre eux ce qui constitue l\'intérêt de cette forme.\nDans l\’exemple les pièrres marquées composent la forme du bambou réputée incoupable.',
+    'image': 'https://zupimages.net/up/20/28/9b3m.png',
+    'cat': ['forme']
+  },
+  'byo yomi': {
+    'def': 'Désigne le temps supplémentaire accordé après le temps principal pour finir la partie. Il existe plusieur types de byo yomi : le plus classique est le byo yomi japonais, on a alors le droit à par exemple 30 secondes pour jouer chaque coup et le droit de dépasser ce délais 3 fois : il s’agit des périodes de byo yomi.', 
+    'cat': ['etape']
   },
   'chuban': {
     'def': 'Milieu de partie, phase des combats.On dit communément que le chuban dure tant qu’il existe des zones vierges ou des groupes faibles sur le goban.',
