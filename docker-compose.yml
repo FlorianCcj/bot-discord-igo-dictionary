@@ -1,0 +1,10 @@
+version: "3"
+services:
+  bot:
+    image: "florianccj/igo-bot-dictionary"
+    env_file:
+    - .env
+    resources:
+      limits:
+        cpus: '0.5'
+        memory: 50M

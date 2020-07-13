@@ -1,4 +1,4 @@
-# Bot - Dreadnought
+# Bot - Igo- Dictionnary
 
 ## Dependancies
 
@@ -58,6 +58,21 @@ Through elegant and efficient commands, the user is able to acces to a large num
 In this manner, concepts such as 'ishi no shita' or 'sabaki' will have no secrets for the neophyte.
 Ultimately our igo_dictionnary bot will act like a giant online vivid and interactiv encyclopedia, providing the go discord community a top-notch educational tool.
 
+## Docker
+
+### Dev
+
+* `docker build -t fccj/igo-bot-dictionary -f docker/Dockerfile-dev .`
+* `version=1.0.0; docker build --build-arg creation_date=$(date --iso-8601=seconds) --build-arg image_revision=$(git log -n1 --format=format:"%h") --build-arg image_version=${version} -t fccj/igo-bot-dictionary:${version} -f docker/Dockerfile-prod .`
+
+* `docker run fccj/igo-bot-dictionary`: bof
+* `docker run -d --rm -m "300M" --env-file ".env" --name my-bot-i-01 fccj/igo-bot-dictionary`: mieux
+* `docker logs my-bot-i-01`
+
 ## Still todo
 
 * test
+
+## Source
+
+Thanks to https://github.com/nomsi/docker-discordjs-tutorial
