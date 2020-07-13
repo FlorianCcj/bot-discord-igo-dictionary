@@ -71,6 +71,8 @@ Ultimately our igo_dictionnary bot will act like a giant online vivid and intera
 
 ### Prod
 
+* renomer le `.env.example` en `.env`
+* remplir le token dans `.env`
 * `docker-compose --compatibility up -d`
 
 ## Source
