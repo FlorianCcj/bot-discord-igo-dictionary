@@ -1,6 +1,6 @@
 ﻿exports.DICTIONARY = {
   'aji': {
-    'def': 'Signifie littéralement gout, mais désigne plutôt l\'arrière goût par exemple d\'une pierre capturée dont la présence même perturbe notre formation.\nPlus généralement il désigne toutes les possibilitées ou le potentiel restant dans une position.\nDans l\'exemple, la pierre marquée bien que capturée et abimée par un angle plein possède encore beaucoup d\'adji. Dans des conditions favorables avec de la force autour de B, noir peut faire revivre sa pierre avec un coup en A',
+    'def': 'Signifie littéralement goût, mais désigne plutôt l\'arrière goût par exemple d\'une pierre capturée dont la présence même perturbe notre formation.\nPlus généralement il désigne toutes les possibilitées ou le potentiel restant dans une position.\nDans l\'exemple, la pierre marquée bien que capturée et abimée par un angle plein possède encore beaucoup d\'adji. Dans des conditions favorables avec de la force autour de B, noir peut faire revivre sa pierre avec un coup en A',
     'image': 'https://zupimages.net/up/20/28/dgqp.png',
     'cat': [ 'galere']
   },
@@ -24,27 +24,38 @@
     'image': 'https://zupimages.net/up/20/28/v9ho.png',
     'cat': ['forme']
   },
-  'bambou': {
-    'def': 'Bonne forme très solide constitué de deux nobi disposé parallèlement.\nLes deux nobi sont virtuellement connectés entre eux ce qui constitue l\'intérêt de cette forme.\nDans l\'exemple les pierres marquées composent la forme du bambou réputée incoupable.',
+  'noeud de bambou': {
+    'def': 'Bonne forme très solide constitué de deux nobis disposés parallèlement.\nLes deux nobi sont virtuellement connectés entre eux ce qui constitue l\'intérêt de cette forme.\nDans l\'exemple les pierres marquées composent la forme du noeud de bambou réputée incoupable.',
     'image': 'https://zupimages.net/up/20/28/9b3m.png',
     'cat': ['forme']
   },
   'byo yomi': {
-    'def': 'Désigne le temps supplémentaire accordé après le temps principal pour finir la partie. Il existe plusieur types de byo yomi : le plus classique est le byo yomi japonais, on a alors le droit à par exemple 30 secondes pour jouer chaque coup et le droit de dépasser ce délais 3 fois : il s\'agit des périodes de byo yomi.',
+    'def': 'Désigne le temps supplémentaire accordé après le temps principal pour finir la partie. Il existe plusieurs types de byo yomi : le plus classique est le byo yomi japonais, on a alors le droit à par exemple 30 secondes pour jouer chaque coup et le droit de dépasser ce délais 3 fois : il s\'agit des périodes de byo yomi.',
     'cat': ['etape']
+  },
+  'chosei': {
+    'def': 'Vie éternelle ou longue vie, désigne une position vivante par répétition d’une séquence de coups à l’infinis. \nLes coups sont forçants pour la vie et la mort d’un groupe et si  aucun des deux joueurs ne veulent s’écarter de la séquence répétée, cela conduit en règle japonaise traditionnelle à une partie sans résultat et donc nulle.\nPour éviter cet écueil d’autres règles comme la règle française ou ing considèrent la séquence du  chosei comme un ko.\nDans l’exemple, noir 1 lance le chosei et ensuit les joueurs répètent les coup forçant 1-2-3-4 à l’infini ce qui conduit à une vie éternelle.',
+    'image': 'https://zupimages.net/up/20/29/nd6n.png',
+    'cat': ['galere']
   },
   'chuban': {
     'def': 'Milieu de partie, phase des combats.On dit communément que le chuban dure tant qu\'il existe des zones vierges ou des groupes faibles sur le goban.',
     'image': 'https://zupimages.net/up/20/28/xlnu.png',
     'cat': ['etape']
   },
+  'daidaigeima': {
+    'def': 'Très grand saut de cheval.Il désigne la forme et le coup de deux pierres de même couleur qui forment un saut de cheval une intersection plus grande que l’ogeima et deux intersection plus grande que le keima (keima désignant le saut de cheval classique se référant au mouvement du cavalier des échecs).\nDans l’exemple, les pierres marqués forment un daidaigeima.',
+    'image': 'https://zupimages.net/up/20/29/cda3.png',
+    'cat': ['forme']
+  },
+ 
   'dame': {
     'def': 'Intersections vides en fin de partie qui n\'appartiennent ni au territoire de blanc, ni à celui de noir. Bien que ces coups ne rapportent pas de point, la règle française stipule de les jouer, contrairement à la règle japonaise.\nDans l\'exemple, les deux intersections marquées sont des dame.',
     'image': 'https://zupimages.net/up/20/28/owhd.png',
     'cat': ['liberte']
   },
  'damezumari': {
-    'def': 'Signifie littéralement manque de liberté, se dit d\'un groupe affaiblis par son manque de libertées qui conduit à des problèmes tactiques local.\nDans l\'exemple le groupe marqué se trouve en damezumari, ce qui permet à blanc de le tuer.',
+    'def': 'Signifie littéralement manque de liberté, se dit d\'un groupe affaibli par son manque de liberté qui conduit à des problèmes tactiques locaux.\nDans l\'exemple le groupe marqué se trouve en damezumari, ce qui permet à blanc de le tuer.',
     'image': 'https://zupimages.net/up/20/28/tool.png',
     'cat': ['liberte', 'mauvaise forme', 'galere']
   },
@@ -59,7 +70,7 @@
     'cat': ['forme', 'capture']
   },
   'goban': {
-    'def': 'Nom du plateau du jeu du go.Il est traditionellement tracé de 19 lignes verticales et 19 lignes horizontales, on pose les pierres sur les 361 intersections ainsi formées.\nL\'exmple montre un goban traditionnel à pied.',
+    'def': 'Nom du plateau du jeu du go.Il est traditionellement tracé de 19 lignes verticales et 19 lignes horizontales, on pose les pierres sur les 361 intersections ainsi formées.\nL\'exemple montre un goban traditionnel à pied.',
     'image': 'https://zupimages.net/up/20/28/kv49.jpg',
     'cat': []
   },
@@ -69,7 +80,7 @@
     'cat': ['bon coup']
   },
   'hane': {
-    'def': 'Coup enveloppant une ou plusieurs pierres adverses.\nL\'exemple montre un hane à la tête des deux pierres, une bonne forme réputée ',
+    'def': 'Coup enveloppant une ou plusieurs pierres adverses.\nL\'exemple montre un hane à la tête des deux pierres, une bonne forme réputée.',
     'image': 'https://zupimages.net/up/20/28/332p.png',
     'cat': ['forme']
   },
@@ -79,17 +90,17 @@
     'cat': ['forme', 'etape']
   },
   'joseki': {
-    'def': 'Séquence localement équitable pour les deux joueurs. Un joseki n\'a rien de définitif, ce sont généralement des études de joueurs professionnels qui aboutissent à ces séquences. Il arrive fréquemment qu\'un joseki soit joué régulièrement pendant un certain temps, puis devienne démodé quelques années plus tard.\nL\'exemple montre un des josekis le plus reconnu',
+    'def': 'Séquence localement équitable pour les deux joueurs. Un joseki n\'a rien de définitif, ceux sont généralement des études de joueurs professionnels qui aboutissent à ces séquences. Il arrive fréquemment qu\'un joseki soit joué régulièrement pendant un certain temps, puis devienne démodé quelques années plus tard.\nL\'exemple montre un des joseki le plus reconnu',
     'image': 'https://zupimages.net/up/20/28/unxj.png',
     'cat': ['sequence']
   },
   'kakari': {
-    'def': 'Désigne un coup d\'approche d\'une pierre ennemie disposée dans un coin.L\'exemple montre un kakari bas et proche d\'un komoku ennemis',
+    'def': 'Désigne un coup d\'approche d\'une pierre ennemie disposée dans un coin.L\'exemple montre un kakari bas et proche d\'un komoku ennemi',
     'image': 'https://zupimages.net/up/20/28/u39b.png',
     'cat': ['forme']
   },
   'keima': {
-    'def': 'Saut de cheval (identique aux échecs).\nLes pierres marqué forment ainsi des keima.',
+    'def': 'Saut de cheval (identique aux échecs).\nLes pierres marqués forment ainsi des keima.',
     'image': 'https://zupimages.net/up/20/28/iw98.png',
     'cat': ['forme']
   },
@@ -99,7 +110,7 @@
     'cat': ['forme', 'sequence']
   },
   'komi': {
-    'def': 'Points ajoutés au score de blanc en fin de partie pour compenser l\'avantage qu\'à noir à jouer en premier(l\'avantage du trait). Il est de 7,5 points en règle française.\nDans l\'exemple malgré un territoire de moindre importance, blanc remporte la partie de 0.5 points grâce au komi de 7.5 points ajouté à son score.',
+    'def': 'Points ajoutés au score de blanc en fin de partie pour compenser l\'avantage qu\'à noir à jouer en premier(l\'avantage du trait). Il est de 7,5 points en règle française.\nDans l\'exemple malgré un territoire de moindre importance, blanc remporte la partie de 0.5 points grâce au komi de 7.5 points ajoutés à son score.',
     'image': 'https://zupimages.net/up/20/28/vtag.png',
     'cat': []
   },
@@ -124,17 +135,17 @@
     'cat': ['forme', 'galere']
   },
   'seki': {
-    'def': 'Vie mutuelle. Situation où deux groupes (ou plus) peuvent être vivants sans avoir deux yeux (parfois juste un seul).\nLes deux groupes (ou plus) ne peuvent se capturer mutuellement sous peine de se suicider',
+    'def': 'Vie mutuelle. Situation où deux groupes (ou plus) peuvent être vivants sans avoir deux yeux (parfois juste un seul).\nLes deux groupes (ou plus) ne peuvent se capturer mutuellement sous peine de se suicider.',
     'image': 'https://zupimages.net/up/20/28/jsib.png',
     'cat': ['liberte', 'galere', 'forme']
   },
   'sente': {
-    'def': 'Contraire de gote. Se dit d\'une séquence où le joueur a l\'initiative à la fin de celle-ci.\nDans l\'exemple le coup en 1 est sente pour la vie du groupe du coin : blanc se doit de répondre afin de le faire vivre',
+    'def': 'Contraire de gote. Se dit d\'une séquence où le joueur a l\'initiative à la fin de celle-ci.\nDans l\'exemple le coup en 1 est sente pour la vie du groupe du coin : blanc se doit de répondre afin de le faire vivre.',
     'image': 'https://zupimages.net/up/20/28/81af.png',
     'cat': []
   },
   'shicho': {
-    'def': 'Escalier en Japonais. Première technique de capture apprise aux débutants. On la retrouve énormément dans le jeu. Elle consiste à effectuer une succession d\'atari qui confine vers le bord du goban pour maintenir le groupe ennemis 2 deux libertés maximum de manière permanente jusqu\'à sa capture.Le shémas de capture ressemble à un escalier.',
+    'def': 'Escalier en Japonais. Première technique de capture apprise aux débutants. On la retrouve énormément dans le jeu. Elle consiste à effectuer une succession d\'atari qui confine vers le bord du goban pour maintenir le groupe ennemi a 2 deux libertés maximum de manière permanente jusqu\'à sa capture.Le schéma de capture ressemble à un escalier.',
     'image': 'https://zupimages.net/up/20/28/kl00.png',
     'cat': ['sequence', 'forme', 'galere']
   },
@@ -144,7 +155,7 @@
     'cat': ['galere', 'forme']
   },
   'tenuki': {
-    'def': 'Jouer autre part. Lorsqu\'un joueur décide, après une séquence de coups locale, de jouer ailleurs, on dit qu\'il fait tenuki.\nDans l\'exemple après avoir joué hoshi, noir a tenuki 3 fois.',
+    'def': 'Jouer autre part. Lorsqu\'un joueur décide, après une séquence de coups locaux, de jouer ailleurs, on dit qu\'il fait tenuki.\nDans l\'exemple après avoir joué hoshi, noir a tenuki 3 fois.',
     'image': 'https://zupimages.net/up/20/28/lt3r.png',
     'cat': ['galere']
   },
@@ -164,16 +175,16 @@
     'cat': ['forme', 'galere']
   },
   'tsumego': {
-    'def': 'L\'art du combat au jeu de go. Ce sont des problèmes de vie et de mort, plus largement il désigne aussi ceux de capture ou de semeai.\nDans l\'exemple, noir 1-3 permet de tuer le groupe blanc, c\'est la solution du tsumego.',
+    'def': 'L\'art du combat au jeu de go. Ceux sont des problèmes de vie et de mort, plus largement ils désignent aussi ceux de capture ou de semeai.\nDans l\'exemple, noir 1-3 permet de tuer le groupe blanc, c\'est la solution du tsumego.',
     'image': 'https://zupimages.net/up/20/28/jvhm.png',
     'cat': []
   },
   'yose': {
-    'def': 'Etape du jeu de go qui désigne la fin de la partie.\nA ce stade, il ne reste plus de larges zones inoccupées ou de groupes faibles, il s\'agit de fermer les frontière des territoires efficacement afin de préparer au mieux la phase de comptage de la partie.',
+    'def': 'Etape du jeu de go qui désigne la fin de la partie.\nA ce stade, il ne reste plus de larges zones inoccupées ou de groupes faibles, il s\'agit de fermer les frontières des territoires efficacement afin de préparer au mieux la phase de comptage de la partie.',
     'image': 'https://zupimages.net/up/20/28/evg6.png',
     'cat': ['etape']
   },
-};
+ };
 exports.ENV = 'dev';
 exports.FOOTER_TEXT = 'Powered by fccj and Shine, yours !';
 exports.KEY = {
