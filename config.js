@@ -44,7 +44,7 @@
     'cat': ['etape']
   },
   'contre sente': {
-    'def': 'Désigne un type de yose dans une zone ou l’on fini gote mais où notre adversaire en y jouant fini sente.\nJouer un yose contre sente est souvent mieux que de jouer un yose purement gote de même valeur, car il empêche l’adversaire de réaliser un yose sente.\nOn l\'appelle aussi parfois reverse-sente\nDans l\'exemple le coup 1 est un yose à  5 points contre sente pour noir, un coup blanc en 1 aurait été sente car il aurait menacé la capture des 3 pierres ce qui aurait été déterminant à ce stade du yose.',
+    'def': 'Désigne un type de yose dans une zone ou l’on fini gote mais où notre adversaire en y jouant fini sente.\nJouer un yose contre sente est souvent mieux que de jouer un yose purement gote de même valeur, car il empêche l’adversaire de réaliser un yose sente.\nOn l\'appelle aussi parfois reverse-sente\nDans l’exemple le coup 1 est un yose à  5 points contre sente pour noir, un coup blanc en 1 aurait été sente car il aurait menacé la capture des 3 pierres ce qui aurait été déterminant à ce stade du yose.',
     'image': 'https://zupimages.net/up/20/29/c0n9.png',
     'cat': ['sequence']
   },
@@ -122,10 +122,18 @@
     'image': 'https://zupimages.net/up/20/28/y2lf.png',
     'cat': ['forme', 'etape']
   },
+  'honninbo': {
+    'def': 'Titre honorifique que l’on obtient en remportant le tournois japonais du même nom.\n Il s’agit du 3ème titre japonais par ordre d’importance.\nLes principaux titres japonais sont dans ce même ordre : Kisei, Meijin, Honninbo, Juudan, Oza, Tengen et Gosei\nCe titre est nommé en honneur à la famille Honninbo, la plus forte des 4 grandes écoles de go durant l’ère edo avec l’école Hayashi, Inoue et Yasui.\nCrée par le prêtre bouddhiste Honninbo Sansa sous l’impulsion du shogun en 1612, L’école Honninbo perdurera jusqu’en 1940 avec Honninbo Shusai à sa tête.\nHonninbo Dosaku, Honninbo Jowa et Honninbo Shusaku, sont des joueurs célèbres ayant appartenu à l’école Honninbo. ',
+    'cat': []
+  },
   'joseki': {
     'def': 'Séquence localement équitable pour les deux joueurs. Un joseki n\'a rien de définitif, ceux sont généralement des études de joueurs professionnels qui aboutissent à ces séquences. Il arrive fréquemment qu\'un joseki soit joué régulièrement pendant un certain temps, puis devienne démodé quelques années plus tard.\nL\'exemple montre un des joseki le plus reconnu',
     'image': 'https://zupimages.net/up/20/28/unxj.png',
     'cat': ['sequence']
+  },
+  'juudan': {
+    'def': 'Titre honorifique que l’on obtient en remportant le tournois japonais du même nom.\nIl signifie littéralement \”10ème dan\”et il s’agit du 4ème titre japonais par ordre d’importance.\nLes principaux titres japonais sont dans ce même ordre : Kisei, Meijin, Honninbo, Juudan, Oza, Tengen et Gosei',
+    'cat': []
   },
   'kakari': {
     'def': 'Désigne un coup d\'approche d\'une pierre ennemie disposée dans un coin.L\'exemple montre un kakari bas et proche d\'un komoku ennemi',
@@ -141,6 +149,10 @@
     'def': 'Signifie coup de coupe.C’est un coup qui sépare des pierres ou des groupes de pierres adverses.\nSouvant couper représente à court terme un danger, aussi bien pour celui qui coupe que pour celui est est coupé, ce pourquoi, faire kiri est vecteur de risque.\nDans l’exemple, le coup en 1 est kiri.',
     'image': 'https://zupimages.net/up/20/28/iw98.png',
     'cat': ['forme']
+  },
+  'kisei': {
+    'def': 'Titre honorifique que l’on obtient en remportant le tournois japonais du même nom.\nIl signifie littéralement \”Saint du go\”(tout comme Gosei mais écrit différemment) et il s’agit du plus important titre japonais.\nLes principaux titres japonais sont par ordre d’importance  : Kisei, Meijin, Honninbo, Juudan, Oza, Tengen et Gosei',
+    'cat': []
   },
   'ko': {
     'def': 'Éternité en Japonais. Situation du jeu nécessitant une règle particulière (qui porte le même nom) pour éviter une répétition de position à l\'infini. Il en découle les batailles de ko, où les joueurs cherchent des menaces de ko pour gagner la bataille.\nL\'exemple montre un ko où blanc après 2 se doit de jouer une menace de ko pour pouvoir re-capturer en 1.',
@@ -161,6 +173,10 @@
     'def': 'Signifie littéralement pierre.Rang utilisé pour le classement en niveau des joueur de go, il correspond au niveau des joueurs débutants ou en phase d’apprentissage.\nLe classement en kyu n’a pas vraiment de limite inférieure, on considère cependant généralement qu’un joueur connaissant uniquement les règles du jeu de go à une force équivalente à 30kyu.\nLe classement en kyu s’étend de 30kyu (joueur en kyu le plus faible) jusqu’à 1kyu (joueur en kyu le plus fort) à partir duquel s’étend ensuite le classement des joueurs en dan.\nLe classement en dan peut être utilisé à titre indicatif pour établir le bon nombre de pièrre de handicap entre deux joueurs.',
     'cat': ['etape']
   },
+  'meijin': {
+    'def': 'Titre honorifique que l’on obtient en remportant le tournois japonais du même nom.\nIl signifie littéralement \”Maître\”et il s’agit du 2ème titre japonais par ordre d’importance.\nLes principaux titres japonais sont dans ce même ordre : Kisei, Meijin, Honninbo, Juudan, Oza, Tengen et Gosei\nCe terme désignait aussi à l’ère edo l’homme le plus fort du moment, correspondant au rang de 9d.',
+    'cat': []
+  },
   'nobi': {
     'def': 'Coup au contact d\'une de ses propres pierres.Nom aussi donné à la forme qui en résulte',
     'image': 'https://zupimages.net/up/20/28/yrhb.png',
@@ -180,6 +196,10 @@
     'def': 'Grand saut de cheval.Il désigne la forme et le coup de deux pierres de même couleur qui forment un saut de cheval une intersection plus grande que le keima (keima désignant le saut de cheval classique se référant au mouvement du cavalier des échecs).\nDans l’exemple, les pierres marqués forment un ogeima.',
     'image': 'https://zupimages.net/up/20/29/k2zm.png',
     'cat': ['forme']
+  },
+  'oza': {
+    'def': 'Titre honorifique que l’on obtient en remportant le tournois japonais du même nom.\nIl signifie littéralement \”Trône\”et il s’agit du 6ème titre japonais par ordre d’importance.\nLes principaux titres japonais sont dans ce même ordre : Kisei, Meijin, Honninbo, Juudan, Oza, Tengen et Gosei',
+    'cat': []
   },
   'seki': {
     'def': 'Vie mutuelle. Situation où deux groupes (ou plus) peuvent être vivants sans avoir deux yeux (parfois juste un seul).\nLes deux groupes (ou plus) ne peuvent se capturer mutuellement sous peine de se suicider.',
@@ -205,6 +225,11 @@
     'def': 'Uttegaeshi en japonais. Technique de capture où le joueur met délibérément une de ses pierres en atari dans le but de recapturer derrière un groupe de pierres adverses.',
     'image': 'https://zupimages.net/up/20/28/iwxo.png',
     'cat': ['galere', 'forme']
+  },
+  'tengen': {
+    'def': 'Signifie littéralement \”Point du ciel\”.Nom que l’on donne au hoshi central, point unique sur le goban qui constitue son centre de symétrie\nDe part son caractère singulier, jouer le tengen au fuseki à toujours fasciné les joueurs de go.\nCe terme désigne aussi le titre honorifique que l’on obtient en remportant le tournois japonais du même nom.\nIl s’agit du 6ème titre japonais par ordre d’importance.\nLes principaux titres japonais sont dans ce même ordre : Kisei, Meijin, Honninbo, Juudan, Oza, Tengen et Gosei',
+    'image': 'https://zupimages.net/up/20/29/c3d4.png',
+    'cat': []
   },
   'tenuki': {
     'def': 'Jouer autre part. Lorsqu\'un joueur décide, après une séquence de coups locaux, de jouer ailleurs, on dit qu\'il fait tenuki.\nDans l\'exemple après avoir joué hoshi, noir a tenuki 3 fois.',
@@ -237,11 +262,12 @@
     'cat': ['etape']
   },
  };
-exports.ENV = 'dev';
-exports.FOOTER_TEXT = 'Powered by fccj and Shine, yours !';
-exports.KEY = {
+ exports.ENV = 'dev';
+ exports.FOOTER_TEXT = 'Powered by fccj and Shine, yours !';
+ exports.KEY = {
   'cat': 'cat',
   'def': 'def',
   'image': 'image',
   'thumbnail': 'thumbnail',
-};
+ };
+ 

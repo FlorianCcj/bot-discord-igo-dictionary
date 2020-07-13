@@ -69,9 +69,9 @@ Ultimately our igo_dictionnary bot will act like a giant online vivid and intera
 * `docker run -d --rm -m "300M" --env-file ".env" --name my-bot-i-01 fccj/igo-bot-dictionary`: mieux
 * `docker logs my-bot-i-01`
 
-## Still todo
+### Prod
 
-* test
+* `docker-compose --compatibility up -d`
 
 ## Source
 

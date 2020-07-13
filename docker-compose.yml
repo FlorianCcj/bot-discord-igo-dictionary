@@ -1,10 +1,11 @@
 version: "3"
 services:
   bot:
-    image: "florianccj/igo-bot-dictionary"
+    image: "fccj/igo-bot-dictionary:1.0.0"
     env_file:
-    - .env
-    resources:
-      limits:
-        cpus: '0.5'
-        memory: 50M
+      - .env
+    deploy:
+      resources:
+        limits:
+          cpus: '0.5'
+          memory: 50M
