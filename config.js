@@ -1,5 +1,5 @@
 ﻿exports.DICTIONARY = require('./defs.json');
-exports.ENV = 'dev';
+exports.ENV = 'prod';
 exports.FOOTER_TEXT = 'Powered by fccj and Shine, yours !';
 exports.KEY = {
   'cat': 'cat',

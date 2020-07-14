@@ -7,5 +7,6 @@ docker
 docker-compose.yaml
 Procfile
 README.md
+secret.js
 secret.js.example
 assets/
