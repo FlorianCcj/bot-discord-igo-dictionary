@@ -12,10 +12,10 @@ const env = CONFIG.ENV;
 if (env === 'dev') {
   const SECRET = require("../secret");
   client.config.TOKEN = SECRET.TOKEN;
-  client.config.PREFIX = SECRET.PREFIX;
+  client.config.PREFIX = SECRET.BOT_PREFIX;
 } else {
   client.config.TOKEN = process.env.TOKEN;
-  client.config.PREFIX = process.env.PREFIX;
+  client.config.PREFIX = process.env.BOT_PREFIX;
 }
 
 // client.on('ready', () => require('./events/ready.event.js')(client));

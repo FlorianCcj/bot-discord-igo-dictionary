@@ -19,7 +19,7 @@ rename `secret.js.example` in `secret.js`
 | Var name                      | Desc                                                                                        |
 |-------------------------------|---------------------------------------------------------------------------------------------|
 | TOKEN                         | Auth token, you get it on [discordapp](discordapp.com/developers/applications/)             |
-| PREFIX                        | the first char you write to easy command                                                    |
+| BOT_PREFIX                        | the first char you write to easy command                                                    |
 
 ### For heroku
 
