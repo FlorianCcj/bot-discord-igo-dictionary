@@ -1,13 +1,17 @@
 FROM node:12-alpine
 
 # Create the directory!
-RUN mkdir -p /usr/src/bot
-WORKDIR /usr/src/bot
+RUN mkdir -p /opt/bot
+WORKDIR /opt/bot
 
-# Copy and Install our bot
-COPY package*.json /usr/src/bot/
+COPY package*.json /opt/bot
 RUN npm install --prod
-COPY . /usr/src/bot
+
+ENV DISCORD_TOKEN="my super token"
+ENV prefix="!igo"
+ENV NODE_ENV=production
+
+COPY . /opt/bot
 USER node
 # Start me!
 CMD ["npm", "run", "serve"]
