@@ -6,4 +6,6 @@ exports.KEY = {
   'def': 'def',
   'image': 'image',
   'thumbnail': 'thumbnail',
+  'equals': 'synonym',
+  'link_to': 'link_to',
 };

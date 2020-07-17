@@ -20,6 +20,28 @@ describe('category.utils', () => {
       const result = ['def1', 'def2'];
       expect(category.get_word_from_category(cat_to_extract, config)).toStrictEqual(result);
     });
+
+    test('still work if there is no cat', () => {
+      const config = {
+        DICTIONARY: {
+          'def1': {
+            cat: ['cat2']
+          },
+          'def2': {
+            cat: ['cat1', 'cat2']
+          },
+          'def3': {
+            synonym: 'def1'
+          }
+        },
+        KEY: {
+          cat: 'cat'
+        }
+      };
+      const cat_to_extract = 'cat2';
+      const result = ['def1', 'def2'];
+      expect(category.get_word_from_category(cat_to_extract, config)).toStrictEqual(result);
+    });
   });
 
   describe('get_all_categories', () => {

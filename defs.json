@@ -5,7 +5,7 @@
     "cat": [ "galere"]
   },
   "ajikeshi": {
-    "def": "Se dit d'un mauvais coup qui supprime ou diminue l'adj d'une position, c'est à dire d'éventuel développement résiduel qui aurait pu perturber la formation de l'adversaire. nDans l'exemple, l'atari marqué est ajikeshi car une fois que noir connecte, cela supprime tout aji résiduel de la faiblesse en A que blanc aurait pu utiliser.",
+    "def": "Se dit d'un mauvais coup qui supprime ou diminue l'adj d'une position, c'est à dire d'éventuel développement résiduel qui aurait pu perturber la formation de l'adversaire.\nDans l'exemple, l'atari marqué est ajikeshi car une fois que noir connecte, cela supprime tout aji résiduel de la faiblesse en A que blanc aurait pu utiliser.",
     "image": "https://zupimages.net/up/20/28/yr06.png",
     "cat": ["mauvaise forme"]
   },
@@ -63,14 +63,17 @@
     "cat": ["etape"]
   },
   "degiri": {
-    "def": "Achttps://zupimages.net/up/20/29/beez.pngtion de pousser et couper.C’est à dire pousser dans une forme adverse (un keima un tobi ou autre) et couper donc séparer des groupes ennemis immédiatement après.\nIl est aussi appelé communément ”pousse-coupe”.\nOn dit souvent qu’il ne faut pas pousser sans couper au risque de renforcer inutilement l’adversaire.\nDans l’exemple, noir fait degiri, il pousse en 1 et coupe en 3.",
-    "image": "",
+    "def": "Action de pousser et couper.C’est à dire pousser dans une forme adverse (un keima un tobi ou autre) et couper donc séparer des groupes ennemis immédiatement après.\nIl est aussi appelé communément ”pousse-coupe”.\nOn dit souvent qu’il ne faut pas pousser sans couper au risque de renforcer inutilement l’adversaire.\nDans l’exemple, noir fait degiri, il pousse en 1 et coupe en 3.",
+    "image": "https://zupimages.net/up/20/29/beez.png",
     "cat": ["sequence"]
   },
   "double sente": {
     "def": "Désigne un type de yose dans une zone ou l’on fini sente et où notre adversaire en y jouant fini aussi sente.\nLes coups de yose double sente sont ultra prioritaire au yose, on dit qu’il faut les jouer en premier car ils permettent en gardant la main d'empêcher un yose sente de l’adversaire.\nDans l’exemple la séquence 1-2-3-4 est un yose à 4 points double sente pour noir, car un coup blanc en 3 aurait été aussi double sente par symétrie.",
     "image": "https://zupimages.net/up/20/29/rdo9.png",
     "cat": ["sequence"]
+  },
+  "fin de partie": {
+    "synonym": "yose"
   },
   "fuseki": {
     "def": "Début de partie. Il n'y a pas de limite précise en nombre de coups, cela varie très grossièrement entre 30 et 50/60 coups. Vient ensuite la phase des combats : le Chûban.\nL'exemple montre le départ d'un fuseki kobayashi.",
@@ -92,6 +95,11 @@
     "image": "https://zupimages.net/up/20/29/ccnb.png",
     "cat": []
   },
+  "gokyo shumyo": {
+    "def": "Nom d’un recueil de problèmes (tsumego) classiques crée en 1812 par le joueur de go professionnel japonais Hayashi Genbi.\nLe titre signifie littéralement : Livre de go sacré au génie multiple\nLe recueil est divisé en plusieurs sections thématiques correspondant aux problèmes de vie, de mort, de course aux libertés, de capture ou de tesuji.Il comporte en  tout 520 tsumego",
+    "image": "https://zupimages.net/up/20/29/q3jb.png",
+    "cat": []
+  },
   "gonogo": {
     "def": "Désigne le point 5-5 (5 intersections par rapport au deux bords) sur le goban, souvent joué comme premier coup dans un coin.Il a été expérimenté l’or du shinfuseki dans les années 30 mais est maintenant très peu joué par les joueurs professionnel le trouvant trop peu orienté vers le control du coin, même si il reste encore jouable.\nL’exemple montre les 4 gonogo disponibles sur le goban.",
     "image": "https://zupimages.net/up/20/29/kmx0.png",
@@ -104,6 +112,11 @@
   "gote": {
     "def": "Se dit d'une séquence de coups où l'adversaire a l'initiative pour jouer ailleurs sur le  goban à la fin de celle-ci. nDans l'exemple, noir termine la séquence gote : il se devait de faire vivre son groupe...",
     "image": "https://zupimages.net/up/20/28/zbs9.png",
+    "cat": ["bon coup"]
+  },
+  "guzumi": {
+    "def": "Bon angle vide.On donne ce nom à un coup de type tesuji qui rend de manière surprenante un angle vide correct.\nIl est souvent utilisé pour réaliser une coupe de manière approprié, ou bien enlever ou conserver des libertés importante l’or d’un combat.\nPar opposition le mauvais angle vide est appelé spécifiquement akisankaku.\nDans l’exemple, le coup en 1 est un guzumi et permet de rendre A et B miai (interchangeables) ce qui assure au moins la capture de pierres blanches d’un des deux côtés",
+    "image": "https://zupimages.net/up/20/29/tzu6.png",
     "cat": ["bon coup"]
   },
   "hane": {
@@ -258,6 +271,8 @@
   "yose": {
     "def": "Etape du jeu de go qui désigne la fin de la partie.\nA ce stade, il ne reste plus de larges zones inoccupées ou de groupes faibles, il s'agit de fermer les frontières des territoires efficacement afin de préparer au mieux la phase de comptage de la partie.",
     "image": "https://zupimages.net/up/20/28/evg6.png",
-    "cat": ["etape"]
+    "cat": ["etape"],
+    "synonym": ["fin de partie"],
+    "link_to": ["fuseki", "chuban"]
   }
 }

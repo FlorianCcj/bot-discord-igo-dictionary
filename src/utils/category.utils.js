@@ -1,7 +1,10 @@
 function get_word_from_category(cat, config) {
   const dictionary = [];
   for (const key in config.DICTIONARY) {
-    if (config.DICTIONARY[key][config.KEY['cat']].includes(cat)) {
+    if (
+      Array.isArray(config.DICTIONARY[key][config.KEY['cat']])
+      && config.DICTIONARY[key][config.KEY['cat']].includes(cat)
+    ) {
       dictionary.push(key)
     }
   }
