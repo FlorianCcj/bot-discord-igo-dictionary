@@ -1,11 +1,11 @@
 {
   "aji": {
-    "def": "Signifie littéralement goût, mais désigne plutôt l'arrière goût par exemple d'une pierre capturée dont la présence même perturbe notre formation.\nPlus généralement il désigne toutes les possibilitées ou le potentiel restant dans une position.\nDans l'exemple, la pierre marquée bien que capturée et abimée par un angle plein possède encore beaucoup d'adji. Dans des conditions favorables avec de la force autour de B, noir peut faire revivre sa pierre avec un coup en A",
+    "def": "Signifie littéralement goût, mais désigne plutôt l'arrière-goût par exemple d'une pierre capturée dont la présence même perturbe notre formation.\nPlus généralement, il désigne toutes les possibilités ou le potentiel restant dans une position.\nDans l'exemple, la pierre marquée, bien que capturée et abimée par un angle plein, possède encore beaucoup d'aji. Dans des conditions favorables avec de la force autour de B, noir peut faire revivre sa pierre avec un coup en A.",
     "image": "https://zupimages.net/up/20/28/dgqp.png",
     "cat": ["situation"]
   },
   "ajikeshi": {
-    "def": "Se dit d'un mauvais coup qui supprime ou diminue l'adj d'une position, c'est à dire d'éventuel développement résiduel qui aurait pu perturber la formation de l'adversaire. \nDans l'exemple, l'atari marqué est ajikeshi car une fois que noir connecte, cela supprime tout aji résiduel de la faiblesse en A que blanc aurait pu utiliser.",
+    "def": "Se dit d'un mauvais coup qui supprime ou diminue l'aji d'une position, c'est-à-dire un éventuel développement résiduel qui aurait pu perturber la formation de l'adversaire. \nDans l'exemple, l'atari marqué est ajikeshi car une fois que noir connecte, cela supprime tout aji résiduel de la faiblesse en A que blanc aurait pu utiliser.",
     "image": "https://zupimages.net/up/20/28/yr06.png",
     "cat": ["action"]
   },
@@ -15,12 +15,12 @@
     "cat": ["forme"]
   },
   "atari": {
-    "def": "Situation où une ou plusieurs pierres n'ont plus qu'une seule liberté. On dit que le coup 1 met la pierre blanches en atari.",
+    "def": "Situation où une ou plusieurs pierres n'ont plus qu'une seule liberté. On dit que le coup 1 met la pierre blanche en atari.",
     "image": "https://zupimages.net/up/20/28/yydk.png",
     "cat": ["action"]
   },
   "atekomi": {
-    "def": "Signifie littéralement calage.\nOn utilise ce mot pour désigner un coup calé au contact de deux pierres ennemies en diagonale, c'est à dire vulgairement un coup qui tente de briser un kosumi ennemis.\nL'exemple montre que l'atekomi peut être un kikashi (bon échange) comme en 1 pour préparer l'autre atekomi en 3 qui est un tesuji de capture.",
+    "def": "Signifie littéralement calage.\nOn utilise ce mot pour désigner un coup calé au contact de deux pierres ennemies en diagonale, c'est-à-dire vulgairement un coup qui tente de briser un kosumi ennemi.\nL'exemple montre que l'atekomi peut être un kikashi (bon échange) comme en 1 pour préparer l'autre atekomi en 3 qui est un tesuji de capture.",
     "image": "https://zupimages.net/up/20/28/v9ho.png",
     "cat": ["action"]
   },
@@ -29,7 +29,7 @@
     "cat": ["autre"]
   },
   "chosei": {
-    "def": "Vie éternelle ou longue vie, désigne une position vivante par répétition d’une séquence de coups à l’infinis. nLes coups sont forçants pour la vie et la mort d’un groupe et si  aucun des deux joueurs ne veulent s’écarter de la séquence répétée, cela conduit en règle japonaise traditionnelle à une partie sans résultat et donc nulle.\nPour éviter cet écueil d’autres règles comme la règle française ou ing considèrent la séquence du  chosei comme un ko.\nDans l’exemple, noir 1 lance le chosei et ensuite les joueurs répètent les coups forçants 1-2-3-4 à l’infini ce qui conduit à une vie éternelle.",
+    "def": "'Vie éternelle' ou 'longue vie', désigne une position vivante par répétition d'une séquence de coups à l'infini. \nLes coups sont forçants pour la vie et la mort d'un groupe et si  aucun des deux joueurs ne veulent s'écarter de la séquence répétée, cela conduit en règle japonaise traditionnelle à une partie sans résultat et donc nulle.\nPour éviter cet écueil d'autres règles comme la règle française ou la règle ING qui considèrent la séquence du chosei comme un ko.\nDans l'exemple, noir 1 lance le chosei et ensuite les joueurs répètent les coups forçants 1-2-3-4 à l'infini, ce qui conduit à une vie éternelle.",
     "image": "https://zupimages.net/up/20/29/nd6n.png",
     "cat": ["situation"]
   },
@@ -38,13 +38,16 @@
     "image": "https://zupimages.net/up/20/28/xlnu.png",
     "cat": ["etape"]
   },
+  "contre hane": {
+    "synonym": "hanekaeshi"
+  },
   "contre sente": {
-    "def": "Désigne un type de yose dans une zone ou l’on fini gote mais où notre adversaire en y jouant fini sente.\nJouer un yose contre sente est souvent mieux que de jouer un yose purement gote de même valeur, car il empêche l’adversaire de réaliser un yose sente.\nOn l'appelle aussi parfois reverse-sentenDans l’exemple le coup 1 est un yose à  5 points contre sente pour noir, un coup blanc en 1 aurait été sente car il aurait menacé la capture des 3 pierres ce qui aurait été déterminant à ce stade du yose.",
+    "def": "Désigne un type de yose dans une zone où l'on finit gote mais où notre adversaire en y jouant finit sente.\nJouer un yose contre sente est souvent mieux que de jouer un yose purement gote de même valeur, car il empêche l'adversaire de réaliser un yose sente.\nOn l'appelle aussi parfois reverse sente.\nDans l'exemple, le coup 1 est un yose à 5 points contre sente pour noir, un coup blanc en 1 aurait été sente car il aurait menacé la capture des 3 pierres ce qui aurait été déterminant à ce stade du yose.",
     "image": "https://zupimages.net/up/20/29/c0n9.png",
     "cat": ["sequence"]
   },
   "cosmique": {
-    "def": "Désigne un style de jeu très porté sur le cente, l’influence, et la stratégie moyo\nA la base cette stratégie a été fortement développée par takemiya masaki, joueur de go japonais professionnel, qui préfère l'appeler style de jeu ‘naturel’ qui vise à gagner en combattant.\nC’est pour préparer ce combat en réalisant des formes flexibles, utile au long terme et peu gourmande en points que le jeu s’oriente d’après lui naturellement vers le centre, les moyo servent quand à eux à provoquer une invasion afin de commencer un combat à notre avantage, soutenu par les coup de fuseki ‘cosmique’ préparatoires.\nDu point de vue théorique cette stratégie permis de revaloriser l’importance du centre assez délaissé jusqu'alors, cependant la grande majorités des meilleur joueur professionel s’accordent à dire que cette stratégie est très risquée à cause de son manque cruel de point en début de partie.\nL’exemple montre une partie disputée entre takemiya masaki (noir) et cho chikun (blanc) en 1990 où noir adopte un style cosmique.",
+    "def": "Désigne un style de jeu très porté sur le centre, l'influence, et la stratégie moyo.\nA la base, cette stratégie a été fortement développée par Takemiya Masaki, joueur de Go professionnel Japonais, qui préfère l'appeler 'style de jeu naturel' qui vise à gagner en combattant.\nC'est pour préparer ce combat en réalisant des formes flexibles, utiles, au long terme et peu gourmandes en points que le jeu s'oriente, d'après lui, naturellement vers le centre. Les moyo servent, quand à eux, à provoquer une invasion afin de commencer un combat à notre avantage, soutenu par les coups de fuseki 'cosmiques' préparatoires.\nDu point de vue théorique, cette stratégie permit de revaloriser l'importance du centre assez délaissé jusqu'alors ; cependant, la grande majorité des meilleurs joueurs professionnels s'accordent à dire que cette stratégie est très risquée à cause de son manque cruel de points en début de partie.\n\nL'exemple montre une partie disputée entre Takemiya Masaki (noir) et Cho Chikun (blanc) en 1990 où noir adopte un style cosmique.",
     "image": "https://zupimages.net/up/20/29/4ifa.png",
     "cat": ["strategie"],
     "link_to": ["fuseki"]
@@ -53,7 +56,7 @@
     "synonym": "kiri"
   },
   "daidaigeima": {
-    "def": "Très grand saut de cheval.Il désigne la forme et le coup de deux pierres de même couleur qui forment un saut de cheval une intersection plus grande que l’ogeima et deux intersection plus grande que le keima (keima désignant le saut de cheval classique se référant au mouvement du cavalier des échecs).\nDans l’exemple, les pierres marqués forment un daidaigeima.",
+    "def": "Très grand saut de cheval. Il désigne la forme et le coup de deux pierres de même couleur qui forment un saut de cheval, d'une intersection plus grande que l'ogeima et deux intersections plus grandes que le keima (keima désignant le saut de cheval classique se référant au mouvement du cavalier des échecs).\nDans l'exemple, les pierres marquées forment un daidaigeima.",
     "image": "https://zupimages.net/up/20/29/cda3.png",
     "cat": ["forme"]
   },
@@ -63,21 +66,21 @@
     "cat": ["situation", "autre"]
   },
   "damezumari": {
-    "def": "Signifie littéralement manque de liberté, se dit d'un groupe affaibli par son manque de liberté qui conduit à des problèmes tactiques locaux.\nDans l'exemple le groupe marqué se trouve en damezumari, ce qui permet à blanc de le tuer.",
+    "def": "Signifie littéralement 'manque de liberté', se dit d'un groupe affaibli par son manque de liberté qui conduit à des problèmes tactiques locaux.\nDans l'exemple, le groupe marqué se trouve en damezumari, ce qui permet à blanc de le tuer.",
     "image": "https://zupimages.net/up/20/28/tool.png",
     "cat": ["situation"]
   },
   "dan": {
-    "def": "Rang utilisé pour le classement en niveau des joueur de go, il correspond au niveau des joueurs forts.\nLe classement en dan amateur s’étend de 1d (shodan, joueur en dan le moins fort) jusqu’à 9d (rarement atteint, joueur en dan le plus fort)nLe classement en dan peut être utilisé à titre indicatif pour établir le bon nombre de pièrre de handicap entre deux joueurs.\nIl existe aussi parrallèlement des dan professionnel (noté p) pour les joueurs professionnel allant de 1p jusqu’à 9p, la progression en dan professionnel se faisant en fonction de l’expérience et des résultats dans les grands tournois international",
+    "def": "Rang utilisé pour le classement en niveau des joueurs de Go, il correspond au niveau des joueurs forts.\nLe classement en dan amateur s'étend de 1d (shodan, joueur en dan le moins fort) jusqu'à 9d (rarement atteint, joueur en dan le plus fort).\nLe classement en dan peut être utilisé à titre indicatif pour établir le bon nombre de pierres de handicap entre deux joueurs.\nIl existe aussi parallèlement des dan professionnels (notés p) pour les joueurs professionnels allant de 1p jusqu'à 9p, la progression en dan professionnel se faisant en fonction de l'expérience et des résultats dans les grands tournoi internationaux.\n\nOn pourrait aussi comparer le niveau dan aux ceintures noirs de karaté",
     "cat": ["titre"]
   },
   "degiri": {
-    "def": "Action de pousser et couper.C’est à dire pousser dans une forme adverse (un keima un tobi ou autre) et couper donc séparer des groupes ennemis immédiatement après.\nIl est aussi appelé communément 'pousse-coupe'.\nOn dit souvent qu’il ne faut pas pousser sans couper au risque de renforcer inutilement l’adversaire.\nDans l’exemple, noir fait degiri, il pousse en 1 et coupe en 3.",
+    "def": "Action de pousser et couper. C'est-à-dire pousser dans une forme adverse (un keima un tobi ou autre) et couper donc séparer des groupes ennemis immédiatement après.\nIl est aussi appelé communément 'pousse-coupe'.\nOn dit souvent qu'il ne faut pas pousser sans couper au risque de renforcer inutilement l'adversaire.\nDans l'exemple, noir fait degiri ; il pousse en 1 et coupe en 3.",
     "image": "https://zupimages.net/up/20/29/beez.png",
     "cat": ["action", "sequence"]
   },
   "double sente": {
-    "def": "Désigne un type de yose dans une zone ou l’on fini sente et où notre adversaire en y jouant fini aussi sente.\nLes coups de yose double sente sont ultra prioritaire au yose, on dit qu’il faut les jouer en premier car ils permettent en gardant la main d'empêcher un yose sente de l’adversaire.\nDans l’exemple la séquence 1-2-3-4 est un yose à 4 points double sente pour noir, car un coup blanc en 3 aurait été aussi double sente par symétrie.",
+    "def": "Désigne un type de yose dans une zone où l'on finit sente et où notre adversaire en y jouant finit aussi sente.\nLes coups de yose double sente sont ultra prioritaires au yose, on dit qu'il faut les jouer en premier car ils permettent, en gardant la main, d'empêcher un yose sente de l'adversaire.\nDans l'exemple, la séquence 1-2-3-4 est un yose à 4 points double sente pour noir, car un coup blanc en 3 aurait été aussi double sente par symétrie.",
     "image": "https://zupimages.net/up/20/29/rdo9.png",
     "cat": ["sequence"]
   },
@@ -95,27 +98,27 @@
     "cat": ["forme"]
   },
   "goban": {
-    "def": "Nom du plateau du jeu du go. Il est traditionellement tracé de 19 lignes verticales et 19 lignes horizontales, on pose les pierres sur les 361 intersections ainsi formées.\nL'exemple montre un goban traditionnel à pied.",
+    "def": "Nom du plateau du jeu de Go.\nIl est traditionnellement tracé de 19 lignes verticales et 19 lignes horizontales.\nOn pose les pierres sur les 361 intersections ainsi formées.\nL'exemple montre un goban traditionnel à pieds.",
     "image": "https://zupimages.net/up/20/28/kv49.jpg",
     "cat": ["materiel"]
   },
   "goki": {
-    "def": "Nom donné aux bols qui servent à ranger les pierres de go.",
+    "def": "Nom donné aux bols qui servent à ranger les pierres de Go.",
     "image": "https://zupimages.net/up/20/29/ccnb.png",
     "cat": ["materiel"]
   },
   "gokyo shumyo": {
-    "def": "Nom d’un recueil de problèmes (tsumego) classiques crée en 1812 par le joueur de go professionnel japonais Hayashi Genbi.\nLe titre signifie littéralement : Livre de go sacré au génie multiple\nLe recueil est divisé en plusieurs sections thématiques correspondant aux problèmes de vie, de mort, de course aux libertés, de capture ou de tesuji.Il comporte en  tout 520 tsumego",
+    "def": "Nom d'un recueil de problèmes classiques crée en 1812 par le joueur de Go professionnel Japonais, Hayashi Genbi.\nLe titre signifie littéralement : 'livre de go sacré au génie multiple' et le recueil est divisé en plusieurs sections thématiques correspondant aux problèmes de vie, de mort, de course aux libertés, de capture ou de tesuji.\nIl comporte en tout 520 tsumego.",
     "image": "https://zupimages.net/up/20/29/q3jb.png",
     "cat": ["autre"]
   },
   "gonogo": {
-    "def": "Désigne le point 5-5 (5 intersections par rapport au deux bords) sur le goban, souvent joué comme premier coup dans un coin.Il a été expérimenté l’or du shinfuseki dans les années 30 mais est maintenant très peu joué par les joueurs professionnel le trouvant trop peu orienté vers le control du coin, même si il reste encore jouable.\nL’exemple montre les 4 gonogo disponibles sur le goban.",
+    "def": "Désigne le point 5-5 (5 intersections par rapport aux deux bords) sur le goban, souvent joué comme premier coup dans un coin.\nIl a été expérimenté lors du shinfuseki dans les années 30 mais est maintenant très peu joué par les joueurs professionnels, le trouvant trop peu orienté vers le contrôle du coin, même s'il reste encore jouable.\nL'exemple montre les 4 gonogo disponibles sur le goban.",
     "image": "https://zupimages.net/up/20/29/kmx0.png",
     "cat": ["intersection"]
   },
   "gosei": {
-    "def": "Titre honorifique que l’on obtient en remportant le tournois japonais du même nom.\nIl signifie littéralement 'Saint du go' (tout comme Kisei mais écrit différemment) et il s’agit du 7ème titre et dernier titre japonais par ordre d’importance.\nLes principaux titres japonais sont dans ce même ordre : Kisei, Meijin, Honninbo, Juudan, Oza, Tengen et Gosei",
+    "def": "Titre honorifique que l'on obtient en remportant le tournoi Japonais du même nom.\nIl signifie littéralement 'Saint du go' (tout comme Kisei mais écrit différemment) et il s'agit du 7ème titre et dernier titre Japonais par ordre d'importance.\nLes principaux titres Japonais sont dans ce même ordre : Kisei, Meijin, Honninbo, Juudan, Oza, Tengen et Gosei",
     "cat": ["titre"]
   },
   "gote": {
@@ -124,35 +127,86 @@
     "cat": ["sequence"]
   },
   "guzumi": {
-    "def": "Bon angle vide.On donne ce nom à un coup de type tesuji qui rend de manière surprenante un angle vide correct.\nIl est souvent utilisé pour réaliser une coupe de manière approprié, ou bien enlever ou conserver des libertés importante l’or d’un combat.\nPar opposition le mauvais angle vide est appelé spécifiquement akisankaku.\nDans l’exemple, le coup en 1 est un guzumi et permet de rendre A et B miai (interchangeables) ce qui assure au moins la capture de pierres blanches d’un des deux côtés",
+    "def": "Bon angle vide. On donne ce nom à un coup de type tesuji qui rend de manière surprenante un angle vide correct.\nIl est souvent utilisé pour réaliser une coupe de manière appropriée, ou bien enlever ou conserver des libertés importantes lors d'un combat.\nPar opposition, le mauvais angle vide est appelé spécifiquement akisankaku.\nDans l'exemple, le coup en 1 est un guzumi et permet de rendre A et B miai (interchangeables), ce qui assure au moins la capture de pierres blanches d'un des deux côtés.",
     "image": "https://zupimages.net/up/20/29/tzu6.png",
     "cat": ["forme"]
+  },
+  "hamete": {
+    "def": "Signifie piège.\nNom donné à un coup souvent dans un joseki qui tend un piège à l'adversaire. Une réponse évidente au hamete conduit à un résultat favorable. Cependant, le hamete n'est pas un coup correct et peut être puni.\nL'exemple (coup 19 en 24), montre le piège de 19 points aussi appelé 'le mur de fer' qui commence avec le coup 5. Si blanc tombe dans le piège avec 8 en bloquant le coin, noir sacrifie son coin pour obtenir un mur extérieur sans failles. En effet, le coup 29 est sente. Blanc doit ajouter un coup en A, sachant que tout les autres coups qui consolident le mur sont aussi sente.\nPour éviter le piège, blanc aurait pu jouer 8 en 15 et ainsi créer un miai entre le coin et l'extérieur.",
+    "image": "https://zupimages.net/up/20/29/juu6.png",
+    "cat": ["strategie”, “action"],
+    "synonym": ["piège"],
+    "link_to": ["joseki"]
+  },
+  "hanami ko": {
+    "def": "Signifie littéralement 'ko de contemplation des fleurs'. Il désigne un ko très déséquilibré où un camp n'a quasiment rien à perdre comparé à l'autre. Il avantage par nature ce premier camp.\nDans l'exemple, bloquer en 2 est rarement bon. En effet, avec 3, blanc lance un hanami ko et risque de perdre un petit yose alors que noir engage tout son coin.",
+    "image": "https://zupimages.net/up/20/28/evg6.png",
+    "cat": ["situation"],
+    "synonym": ["picnic ko"],
+    "link_to": ["ko"]
+ },
+  "hanazuke": {
+    "def": "Signifie 'coup de contact au nez'. Il s'agit d'un coup de forme, souvent un tesuji de type tsuke qui est joué un 'nez' d'un nobi ennemi ; c'est-à-dire au contact juste au bout du nobi, sans relation directe avec d'autres pierres alliées.\nL'exemple montre un hanazuke qui permet d'aplatir blanc. En effet si blanc résiste, il se retrouve séparé.",
+    "image": "https://zupimages.net/up/20/29/c7gy.png",
+    "cat": ["action"],
+    "link_to": ["tesuji", "tsuke", "nobi"]
   },
   "hane": {
     "def": "Coup enveloppant une ou plusieurs pierres adverses.\nL'exemple montre un hane à la tête des deux pierres, une bonne forme réputée.",
     "image": "https://zupimages.net/up/20/28/332p.png",
     "cat": ["forme"]
   },
+  "hanegoroshi": {
+    "def": "Hane de première qui, en réduisant l'espace vital, tue un groupe ennemi.Ce hane illustre bien le proverbe 'le hane apporte la mort'.\nDans l'exemple, le coup en 1 est hanegoroshi.",
+    "image": "https://zupimages.net/up/20/29/uoq2.png",
+    "cat": ["action"],
+    "link_to": ["hane", "tsumego"]
+  },
+  "hanekaeshi": {
+    "def": "Aussi appelé 'contre hane', nom donné au hane en réponse locale à un hane. Technique de stabilisation rapide ou de séparation de groupe, il peut aussi être utile pour faire sabaki. Dans une position relativement vierge, il dépend souvent de shicho lors de résistances.",
+    "image": "https://zupimages.net/up/20/29/2mzq.png",
+    "cat": ["action"],
+    "synonym":["contre hane"],
+    "link_to": ["hane", "shicho"]
+  },
+  "hanekiri": {
+    "def": "Nom donné à un hane suivi d'une coupe.\nDans l'exemple, le coupe en 3 est hanekiri.",
+    "image": "https://zupimages.net/up/20/29/7g7q.png",
+    "cat": ["action”,”sequence"],
+    "link_to": ["hane", "kiri"]
+  },
+  "hanekomi": {
+    "def": "Nom donné à un hane joué dans un tobi.\nDans l'exemple, le coup en 1 est hanekomi.",
+    "image": "https://zupimages.net/up/20/29/uzyq.png",
+    "cat": ["action"],
+    "link_to": ["hane", "warikomi"]
+  },
+  "harazuke": {
+    "def": "Signifie littéralement 'coup au ventre'. Il s'agit d'un coup tesuji de type tsuke (coup de contact) qui est joué au 'ventre' d'un nobi ennemi ; c'est-à-dire au contact d'une des 4 intersections de côté du nobi, sans relation directe avec d'autres pierres alliées.\nL'exemple montre un harazuke en 1 qui permet à noir de tuer blanc dans le coin, et ainsi le conserver.",
+    "image": "https://zupimages.net/up/20/29/sd0y.png",
+    "cat": ["action"],
+    "link_to": ["tesuji", "tsuke"]
+  }, 
   "honninbo": {
-    "def": "Titre honorifique que l’on obtient en remportant le tournois japonais du même nom.\n Il s’agit du 3ème titre japonais par ordre d’importance.\nLes principaux titres japonais sont dans ce même ordre : Kisei, Meijin, Honninbo, Juudan, Oza, Tengen et GoseinCe titre est nommé en honneur à la famille Honninbo, la plus forte des 4 grandes écoles de go durant l’ère edo avec l’école Hayashi, Inoue et Yasui.\nCrée par le prêtre bouddhiste Honninbo Sansa sous l’impulsion du shogun en 1612, L’école Honninbo perdurera jusqu’en 1940 avec Honninbo Shusai à sa tête.\nHonninbo Dosaku, Honninbo Jowa et Honninbo Shusaku, sont des joueurs célèbres ayant appartenu à l’école Honninbo.",
+    "def": "Titre honorifique que l'on obtient en remportant le tournoi Japonais du même nom.\n Il s'agit du 3ème titre Japonais par ordre d'importance.\nLes principaux titres Japonais sont dans ce même ordre : Kisei, Meijin, Honninbo, Juudan, Oza, Tengen et Gosein. Ce titre est nommé en honneur à la famille Honninbo, la plus forte des 4 grandes écoles de Go durant l'ère edo avec l'école Hayashi, Inoue et Yasui.\nCrée par le prêtre bouddhiste Honninbo Sansa sous l'impulsion du shogun en 1612, l'école Honninbo perdurera jusqu'en 1940 avec Honninbo Shusai à sa tête.\nHonninbo Dosaku, Honninbo Jowa et Honninbo Shusaku, sont des joueurs célèbres ayant appartenu à l'école Honninbo.",
     "cat": ["titre"]
   },
   "hoshi": {
-    "def": "Littéralement, étoile en japonais. Sur le goban, c'est le nom des intersections marquées par un point, ils agissent comme des repaires pour l'esprit.\nLe hoshi central est apellé tengen.",
+    "def": "Littéralement, 'étoile' en japonais. Sur le goban, c'est le nom des intersections marquées par un point, ils agissent comme des repaires pour l'esprit.\nLe hoshi central est appelé tengen.",
     "image": "https://zupimages.net/up/20/28/y2lf.png",
     "cat": ["intersection"]
   },
   "joseki": {
-    "def": "Séquence localement équitable pour les deux joueurs. Un joseki n'a rien de définitif, ceux sont généralement des études de joueurs professionnels qui aboutissent à ces séquences. Il arrive fréquemment qu'un joseki soit joué régulièrement pendant un certain temps, puis devienne démodé quelques années plus tard.\nL'exemple montre un des joseki le plus reconnu",
+    "def": "Séquence localement équitable pour les deux joueurs. Un joseki n'a rien de définitif ; ce sont généralement des études de joueurs professionnels qui aboutissent à ces séquences. Il arrive fréquemment qu'un joseki soit joué régulièrement pendant un certain temps, puis devienne démodé quelques années plus tard.\nL'exemple montre un des joseki le plus reconnu.",
     "image": "https://zupimages.net/up/20/28/unxj.png",
     "cat": ["sequence"]
   },
   "juudan": {
-    "def": "Titre honorifique que l’on obtient en remportant le tournois japonais du même nom.\nIl signifie littéralement '10ème dan' et il s’agit du 4ème titre japonais par ordre d’importance.\nLes principaux titres japonais sont dans ce même ordre : Kisei, Meijin, Honninbo, Juudan, Oza, Tengen et Gosei",
+    "def": "Titre honorifique que l'on obtient en remportant le tournoi japonais du même nom.\nIl signifie littéralement '10ème dan' et il s'agit du 4ème titre japonais par ordre d'importance.\nLes principaux titres japonais sont dans ce même ordre : Kisei, Meijin, Honninbo, Juudan, Oza, Tengen et Gosei.",
     "cat": ["titre"]
   },
   "kakari": {
-    "def": "Désigne un coup d'approche d'une pierre ennemie disposée dans un coin.L'exemple montre un kakari bas et proche d'un komoku ennemi",
+    "def": "Désigne un coup d'approche d'une pierre ennemie disposée dans un coin. L'exemple montre un kakari bas et proche d'un komoku ennemi.",
     "image": "https://zupimages.net/up/20/28/u39b.png",
     "cat": ["action"]
   },
@@ -162,22 +216,22 @@
     "cat": ["forme"]
   },
   "kiri": {
-    "def": "Signifie coup de coupe.C’est un coup qui sépare des pierres ou des groupes de pierres adverses.\nSouvant couper représente à court terme un danger, aussi bien pour celui qui coupe que pour celui est est coupé, ce pourquoi, faire kiri est vecteur de risque.\nDans l’exemple, le coup en 1 est kiri.",
+    "def": "Signifie 'coup de coupe'. C'est un coup qui sépare des pierres ou des groupes de pierres adverses.\nSouvent couper représente à court terme un danger, aussi bien pour celui qui coupe que pour celui est est coupé, ce pourquoi, faire kiri est vecteur de risque.\nDans l'exemple, le coup en 1 est kiri.",
     "image": "https://zupimages.net/up/20/28/iw98.png",
     "cat": ["action"],
     "synonym": ["coupe"]
   },
   "kisei": {
-    "def": "Titre honorifique que l’on obtient en remportant le tournois japonais du même nom.\nIl signifie littéralement 'Saint du go' (tout comme Gosei mais écrit différemment) et il s’agit du plus important titre japonais.\nLes principaux titres japonais sont par ordre d’importance  : Kisei, Meijin, Honninbo, Juudan, Oza, Tengen et Gosei",
+    "def": "Titre honorifique que l'on obtient en remportant le tournoi japonais du même nom.\nIl signifie littéralement 'Saint du Go' (tout comme Gosei mais écrit différemment) et il s'agit du plus important titre japonais.\nLes principaux titres japonais sont par ordre d'importance  : Kisei, Meijin, Honninbo, Juudan, Oza, Tengen et Gosei.",
     "cat": ["titre"]
   },
   "ko": {
-    "def": "Éternité en Japonais. Situation du jeu nécessitant une règle particulière (qui porte le même nom) pour éviter une répétition de position à l'infini. Il en découle les batailles de ko, où les joueurs cherchent des menaces de ko pour gagner la bataille.\nL'exemple montre un ko où blanc après 2 se doit de jouer une menace de ko pour pouvoir re-capturer en 1.",
+    "def": "'Eternité' en japonais. Situation du jeu nécessitant une règle particulière (qui porte le même nom) pour éviter une répétition de position à l'infini. Il en découle les batailles de ko, où les joueurs cherchent des menaces de ko pour gagner la bataille.\nL'exemple montre un ko où blanc, après 2, se doit de jouer une menace de ko pour pouvoir re-capturer en 1.",
     "image": "https://zupimages.net/up/20/28/0pvb.png",
     "cat": ["action", "situation"]
   },
   "komi": {
-    "def": "Points ajoutés au score de blanc en fin de partie pour compenser l'avantage qu'à noir à jouer en premier(l'avantage du trait). Il est de 7,5 points en règle française.\nDans l'exemple malgré un territoire de moindre importance, blanc remporte la partie de 0.5 points grâce au komi de 7.5 points ajoutés à son score.",
+    "def": "Points ajoutés au score de blanc en fin de partie pour compenser l'avantage qu'à noir à jouer en premier (l'avantage du trait). Il est de 7,5 points en règles françaises.\nDans l'exemple, malgré un territoire de moindre importance, blanc remporte la partie de 0,5 points grâce au komi de 7,5 points ajoutés à son score.",
     "image": "https://zupimages.net/up/20/28/vtag.png",
     "cat": ["autre"]
   },
@@ -187,55 +241,61 @@
     "cat": ["forme"]
   },
   "kyu": {
-    "def": "Signifie littéralement pierre.Rang utilisé pour le classement en niveau des joueur de go, il correspond au niveau des joueurs débutants ou en phase d’apprentissage.\nLe classement en kyu n’a pas vraiment de limite inférieure, on considère cependant généralement qu’un joueur connaissant uniquement les règles du jeu de go à une force équivalente à 30kyu.\nLe classement en kyu s’étend de 30kyu (joueur en kyu le plus faible) jusqu’à 1kyu (joueur en kyu le plus fort) à partir duquel s’étend ensuite le classement des joueurs en dan.\nLe classement en dan peut être utilisé à titre indicatif pour établir le bon nombre de pièrre de handicap entre deux joueurs.",
+    "def": "Signifie littéralement 'pierre'. Rang utilisé pour le classement en niveau des joueurs de Go. Il correspond au niveau des joueurs débutants ou en phase d'apprentissage.\nLe classement en kyu n'a pas vraiment de limite inférieure, on considère cependant généralement qu'un joueur connaissant uniquement les règles du jeu de Go à une force équivalente à 30kyu.\nLe classement en kyu s'étend de 30kyu (joueur en kyu le plus faible) jusqu'à 1kyu (joueur en kyu le plus fort) à partir duquel s'étend ensuite le classement des joueurs en dan.\nLe classement en dan peut être utilisé à titre indicatif pour établir le bon nombre de pierres de handicap entre deux joueurs.",
     "cat": ["titre"]
   },
   "meijin": {
-    "def": "Titre honorifique que l’on obtient en remportant le tournois japonais du même nom.\nIl signifie littéralement 'Maître' et il s’agit du 2ème titre japonais par ordre d’importance.\nLes principaux titres japonais sont dans ce même ordre : Kisei, Meijin, Honninbo, Juudan, Oza, Tengen et GoseinCe terme désignait aussi à l’ère edo l’homme le plus fort du moment, correspondant au rang de 9d.",
+    "def": "Titre honorifique que l'on obtient en remportant le tournoi japonais du même nom.\nIl signifie littéralement 'Maître' et il s'agit du 2ème titre japonais par ordre d'importance.\nLes principaux titres japonais sont dans ce même ordre : Kisei, Meijin, Honninbo, Juudan, Oza, Tengen et Gosein. Ce terme désignait aussi à l'ère edo l'homme le plus fort du moment, correspondant au rang de 9d.",
     "cat": ["titre"]
   },
-  "nireisei": {
-    "def": "Signifie littéralement : 2 étoiles reliés.\nDésigne le début de partie (fuseki) où l’on occupe 2 hoshis, de manière générale disposés dans les coins.Il s’agit d’un fuseki très flexible.\nDans l’exemple, blanc et noir optent tout les deux pour un nireisei.",
+  "nirensei": {
+    "def": "Signifie littéralement '2 étoiles reliées'.\nDésigne le début de partie (fuseki) où l'on occupe 2 hoshis, de manière générale disposés dans les coins. Il s'agit d'un fuseki très flexible.\nDans l'exemple, blanc et noir optent tous les deux pour un nirensei.",
     "image": "https://zupimages.net/up/20/29/jj21.png",
     "cat": ["strategie"],
     "synonym": [],
-    "link_to": ["fuseki", "hoshi", "sanreisei", "nireisei", "cosmique"]
+    "link_to": ["fuseki", "hoshi", "sanrensei", "nirensei", "cosmique"]
   },
   "nobi": {
-    "def": "Coup au contact d'une de ses propres pierres.Nom aussi donné à la forme qui en résulte",
+    "def": "Coup au contact d'une de ses propres pierres. Nom aussi donné à la forme qui en résulte.",
     "image": "https://zupimages.net/up/20/28/yrhb.png",
     "cat": ["forme"]
   },
   "noeud de bambou": {
-    "def": "Bonne forme très solide constitué de deux nobis disposés parallèlement.\nLes deux nobi sont virtuellement connectés entre eux ce qui constitue l'intérêt de cette forme.\nDans l'exemple les pierres marquées composent la forme du noeud de bambou réputée incoupable.",
+    "def": "Bonne forme très solide constituée de deux nobi disposés parallèlement.\nLes deux nobi sont virtuellement connectés entre eux, ce qui constitue l'intérêt de cette forme.\nDans l'exemple, les pierres marquées composent la forme du noeud de bambou réputé incoupable.",
     "image": "https://zupimages.net/up/20/28/9b3m.png",
     "cat": ["forme"]
   },
   "nozoki": {
-    "def": "Plus souvent appelé peep (de l'anglais). Coup qui menace une coupe dans la forme adverse. Attention : ce n'est pas toujours un bon échange.",
+    "def": "Plus souvent appelé 'peep' (de l'anglais). Coup qui menace une coupe dans la forme adverse. Attention : ce n'est pas toujours un bon échange.",
     "image": "https://zupimages.net/up/20/28/otfd.png",
     "cat": ["action"]
   },
   "oeil d elephant": {
-    "def": "Deux pierres séparées par une intersection en diagonale.Cette intersection est appelé l'oeil d'éléphant et constitue la faiblesse de la forme",
+    "def": "Deux pierres séparées par une intersection en diagonale. Cette intersection est appelée 'l'oeil d'éléphant' et constitue la faiblesse de la forme.",
     "image": "https://zupimages.net/up/20/28/09wu.png",
     "cat": ["forme"]
   },
   "ogeima": {
-    "def": "Grand saut de cheval.Il désigne la forme et le coup de deux pierres de même couleur qui forment un saut de cheval une intersection plus grande que le keima (keima désignant le saut de cheval classique se référant au mouvement du cavalier des échecs).\nDans l’exemple, les pierres marqués forment un ogeima.",
+    "def": "Grand saut de cheval. Il désigne la forme et le coup de deux pierres de même couleur qui forment un saut de cheval, une intersection plus grande que le keima (keima désignant le saut de cheval classique se référant au mouvement du cavalier des échecs).\nDans l'exemple, les pierres marquées forment un ogeima.",
     "image": "https://zupimages.net/up/20/29/k2zm.png",
     "cat": ["forme"]
   },
   "oza": {
-    "def": "Titre honorifique que l’on obtient en remportant le tournois japonais du même nom.\nIl signifie littéralement 'Trône' et il s’agit du 6ème titre japonais par ordre d’importance.\nLes principaux titres japonais sont dans ce même ordre : Kisei, Meijin, Honninbo, Juudan, Oza, Tengen et Gosei",
+    "def": "Titre honorifique que l'on obtient en remportant le tournoi Japonais du même nom.\nIl signifie littéralement 'Trône' et il s'agit du 6ème titre japonais par ordre d'importance.\nLes principaux titres Japonais sont dans ce même ordre : Kisei, Meijin, Honninbo, Juudan, Oza, Tengen et Gosei",
     "cat": ["titre"]
   },
-  "sanreisei": {
-    "def": "Signifie littéralement : 3 étoiles reliés.\nDésigne le début de partie (fuseki) où l’on occupe 3 hoshis adjacents.Il s’agit d’un fuseki porté sur l’influence et très populaire, un des fuseki favori de takemiya masaki reconnu pour son style cosmique..\nL’exemple montre un fuseki sanreisei possible.",
+  "picnic ko": {
+    "synonym": "hanami ko"
+  },
+  "piège": {
+    "synonym": "hamete"
+  },
+  "sanrensei": {
+    "def": "Signifie littéralement '3 étoiles reliées'.\nDésigne le début de partie (fuseki) où l'on occupe 3 hoshi adjacents. Il s'agit d'un fuseki porté sur l'influence et très populaire, un des fuseki favoris de Takemiya Masaki reconnu pour son style cosmique.\nL'exemple montre un fuseki sanrensei possible.",
     "image": "https://zupimages.net/up/20/29/03h2.png",
     "cat": ["strategie"],
     "synonym": [],
-    "link_to": ["fuseki","hoshi", "sanreisei", "nireisei", "cosmique"]
+    "link_to": ["fuseki","hoshi", "sanrensei", "nirensei", "cosmique"]
   },
   "seki": {
     "def": "Vie mutuelle. Situation où deux groupes (ou plus) peuvent être vivants sans avoir deux yeux (parfois juste un seul).\nLes deux groupes (ou plus) ne peuvent se capturer mutuellement sous peine de se suicider.",
@@ -243,42 +303,42 @@
     "cat": ["situation"]
   },
   "sente": {
-    "def": "Contraire de gote. Se dit d'une séquence où le joueur a l'initiative à la fin de celle-ci.\nDans l'exemple le coup en 1 est sente pour la vie du groupe du coin : blanc se doit de répondre afin de le faire vivre.",
+    "def": "Contraire de gote. Se dit d'une séquence où le joueur a l'initiative à la fin de celle-ci.\nDans l'exemple, le coup en 1 est sente pour la vie du groupe du coin : blanc se doit de répondre afin de le faire vivre.",
     "image": "https://zupimages.net/up/20/28/81af.png",
     "cat": ["sequence"]
   },
   "shicho": {
-    "def": "Escalier en Japonais. Première technique de capture apprise aux débutants. On la retrouve énormément dans le jeu. Elle consiste à effectuer une succession d'atari qui confine vers le bord du goban pour maintenir le groupe ennemi a 2 deux libertés maximum de manière permanente jusqu'à sa capture.Le schéma de capture ressemble à un escalier.",
+    "def": "'Escalier' en japonais. Première technique de capture apprise aux débutants. On la retrouve énormément dans le jeu. Elle consiste à effectuer une succession d'atari qui confine vers le bord du goban pour maintenir le groupe ennemi à 2 deux libertés maximum de manière permanente jusqu'à sa capture. Le schéma de capture ressemble à un escalier.",
     "image": "https://zupimages.net/up/20/28/kl00.png",
     "cat": ["sequence", "action", "situation"]
   },
   "shinfuseki": {
-    "def": "Aussi appelé nouvelle ouverture, désigne la période d'innovation avant-gardiste théorique du fuseki à partir des années 1933 jusqu’en 1936 environ.\nGo Seigen et Kitani Minoru, rivaux et amis ont principalement contribué au développement du shinfuseki qui consiste à adopter un fuseki rapide, plus flexible et plus porté sur l’influence. Il permis après de nombreuses expérimentation de populariser le hoshi à une très grande échelle ; coup flexible par excellence.\nL’exemple montre le fuseki de la célèbre partie des 16 soldats, disputée entre Go Seigen blanc et Kosugi Tei noir en 1933.\nCe fuseki incroyable est représentatif des expérimentations effectuées l’or de la période du shinfuseki.",
+    "def": "Aussi appelé nouvelle ouverture, désigne la période d'innovation avant-gardiste théorique du fuseki à partir des années 1933 jusqu'en 1936 environ.\nGo Seigen et Kitani Minoru, rivaux et amis ont principalement contribué au développement du shinfuseki qui consiste à adopter un fuseki rapide, plus flexible et plus porté sur l'influence. Il permit après de nombreuses expérimentations de populariser le hoshi à une très grande échelle ; coup flexible par excellence.\nL'exemple montre le fuseki de la célèbre partie des 16 soldats, disputée entre Go Seigen blanc et Kosugi Tei noir en 1933.\nCe fuseki incroyable est représentatif des expérimentations effectuées lors de la période du shinfuseki.",
     "image": "https://zupimages.net/up/20/29/onxq.png",
     "cat": ["strategie"]
   },
   "snapback": {
-    "def": "Uttegaeshi en japonais. Technique de capture où le joueur met délibérément une de ses pierres en atari dans le but de recapturer derrière un groupe de pierres adverses.",
+    "def": "'Uttegaeshi' en japonais. Technique de capture où le joueur met délibérément une de ses pierres en atari dans le but de recapturer derrière un groupe de pierres adverses.",
     "image": "https://zupimages.net/up/20/28/iwxo.png",
     "cat": ["action"]
   },
   "tengen": {
-    "def": "Signifie littéralement 'Point du ciel'. Nom que l’on donne au hoshi central, point unique sur le goban qui constitue son centre de symétrienDe part son caractère singulier, jouer le tengen au fuseki à toujours fasciné les joueurs de go.\nCe terme désigne aussi le titre honorifique que l’on obtient en remportant le tournois japonais du même nom.\nIl s’agit du 6ème titre japonais par ordre d’importance.\nLes principaux titres japonais sont dans ce même ordre : Kisei, Meijin, Honninbo, Juudan, Oza, Tengen et Gosei",
+    "def": "Signifie littéralement 'point du ciel'. Nom que l'on donne au hoshi central, point unique sur le goban qui constitue son centre de symétrie. De part son caractère singulier, jouer le tengen au fuseki a toujours fasciné les joueurs de Go.\nCe terme désigne aussi le titre honorifique que l'on obtient en remportant le tournoi japonais du même nom.\nIl s'agit du 6ème titre japonais par ordre d'importance.\nLes principaux titres japonais sont dans ce même ordre : Kisei, Meijin, Honninbo, Juudan, Oza, Tengen et Gosei",
     "image": "https://zupimages.net/up/20/29/c3d4.png",
     "cat": ["intersection"]
   },
   "tenuki": {
-    "def": "Jouer autre part. Lorsqu'un joueur décide, après une séquence de coups locaux, de jouer ailleurs, on dit qu'il fait tenuki.\nDans l'exemple après avoir joué hoshi, noir a tenuki 3 fois.",
+    "def": "Jouer autre part. Lorsqu'un joueur décide, après une séquence de coups locaux, de jouer ailleurs, on dit qu'il fait tenuki.\nDans l'exemple, après avoir joué hoshi, noir a tenuki 3 fois.",
     "image": "https://zupimages.net/up/20/28/lt3r.png",
     "cat": ["action"]
   },
   "tesuji": {
-    "def": "Signifie coup brillant ou coup « miraculeux », parfois contre-intuitif. Le graal du joueur de go.On désigne souvent un tel coup celui qui permet de résoudre un problème local tactique de capture de sauvetage de connection ou de déconnection de groupes.",
+    "def": "Signifie 'coup brillant' ou 'coup miraculeux', parfois contre-intuitif ; le graal du joueur de Go. On désigne souvent un tel coup celui qui permet de résoudre un problème local tactique de capture de sauvetage de connection ou de déconnection de groupes.",
     "image": "https://zupimages.net/up/20/28/g3ik.png",
     "cat": ["action"]
   },
   "tobi": {
-    "def": "Saut d'une intersection.\nDans l'exemple, les pierres marqués forment des tobi.",
+    "def": "Saut d'une intersection.\nDans l'exemple, les pierres marquées forment des tobi.",
     "image": "https://zupimages.net/up/20/28/9bdf.png",
     "cat": ["forme"]
   },
@@ -288,19 +348,25 @@
     "cat": ["action"]
   },
   "tsumego": {
-    "def": "L'art du combat au jeu de go. Ceux sont des problèmes de vie et de mort, plus largement ils désignent aussi ceux de capture ou de semeai.\nDans l'exemple, noir 1-3 permet de tuer le groupe blanc, c'est la solution du tsumego.",
+    "def": "L'art du combat au jeu de Go. Ce sont des problèmes de vie et de mort. Plus largement, ils désignent aussi ceux de capture ou de semeai.\nDans l'exemple, noir 1-3 permet de tuer le groupe blanc, c'est la solution du tsumego.",
     "image": "https://zupimages.net/up/20/28/jvhm.png",
     "cat": ["situation"]
   },
-  "yonreisei": {
-    "def": "Signifie littéralement : 4 étoiles reliés.\nDésigne le début de partie (fuseki) où l’on occupe 4 hoshis adjacents.Il s’agit d’un fuseki flexible et  très porté sur l’influence.\nL’exemple montre un fuseki yonreisei possible.",
+  "warikomi": {
+    "def": "Signifie intercalage. Nom donné au coup joué dans un tobi ennemi.\nEn général, le warikomi est mauvais car il ne fait que renforcer le tobi mais dans certains cas où il permet de couper le tobi, il peut être valable.",
+    "image": "https://zupimages.net/up/20/29/0g6l.png",
+    "cat": ["action”,“forme"],
+    "link_to": ["tesuji", "hanekomi"]
+  },
+  "yonrensei": {
+    "def": "Signifie littéralement '4 étoiles reliées'.\nDésigne le début de partie (fuseki) où l'on occupe 4 hoshis adjacents. Il s'agit d'un fuseki flexible très porté sur l'influence.\nL'exemple montre un fuseki yonrensei possible.",
     "image": "https://zupimages.net/up/20/29/fvyc.png",
     "cat": ["strategie"],
     "synonym": [],
-    "link_to": ["fuseki", "hoshi","sanreisei", "nireisei", "cosmique"]
+    "link_to": ["fuseki", "hoshi","sanrensei", "nirensei", "cosmique"]
   },
   "yose": {
-    "def": "Etape du jeu de go qui désigne la fin de la partie.\nA ce stade, il ne reste plus de larges zones inoccupées ou de groupes faibles, il s'agit de fermer les frontières des territoires efficacement afin de préparer au mieux la phase de comptage de la partie.",
+    "def": "Etape du jeu de Go qui désigne la fin de la partie.\nA ce stade, il ne reste plus de larges zones inoccupées ou de groupes faibles. Il s'agit de fermer les frontières des territoires efficacement afin de préparer au mieux la phase de comptage de la partie.",
     "image": "https://zupimages.net/up/20/28/evg6.png",
     "cat": ["etape"],
     "synonym": ["fin de partie"],

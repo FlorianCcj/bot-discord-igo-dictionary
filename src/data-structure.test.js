@@ -1,4 +1,4 @@
-const {DICTIONARY, KEY} = require('../config');
+const {AUTHORIZED_CHAR, DICTIONARY, KEY} = require('../config');
 
 function synonym_has_no_prop(dictionary) {
   word_properties = [
@@ -50,6 +50,24 @@ function gather_miss_structured_word(dictionary) {
       }
     } else {
       result.push(word);
+    }
+  }
+  return result;
+}
+
+function check_defs(dictionary) {
+  const result = [];
+  let regex = `${AUTHORIZED_CHAR.normal_chars}`;
+  regex += `${AUTHORIZED_CHAR.special_chars}`;
+  regex += `${AUTHORIZED_CHAR.japanese_chars}`;
+  for (word in dictionary) {
+    if (!dictionary[word].hasOwnProperty(KEY['def'])) {
+      continue;
+    }
+    const test = dictionary[word][KEY['def']].match(`[^${regex}]+`);
+    if (test !== null) {
+      result.push(word);
+      result.push(test[0]);
     }
   }
   return result;
@@ -114,6 +132,37 @@ describe('data structure check', () => {
         expect(result.length).toBe(3);
       });
     });
+
+    describe('there is only authorized char', () => {
+      test('do not test synonym', () => {
+        const dictionary = {
+          def1: {synonym: "def2"},
+        };
+
+        result = check_defs(dictionary);
+        expect(result).toStrictEqual([]);
+      });
+
+      test('if there is only letter, number or space that s ok', () => {
+        const dictionary = {
+          def1: {def: "qwertyui"},
+          def2: {def: "dnjks fs092372 8das"},
+        };
+
+        result = check_defs(dictionary);
+        expect(result).toStrictEqual([]);
+      });
+
+      test('if there is unauthorized special char return bad words', () => {
+        const dictionary = {
+          def1: {def: "~`%"},
+          def2: {def: "dnjksfs923728 das "},
+        };
+
+        result = check_defs(dictionary);
+        expect(result).toStrictEqual(['def1', '~`%']);
+      });
+    });
   });
 
   describe('check data', () => {
@@ -158,6 +207,11 @@ describe('data structure check', () => {
         expect(result.length).toBe(0);
       }
     });
-  });
 
+    test('there is only authorized char', () => {
+      result = check_defs(DICTIONARY);
+      expect(result).toStrictEqual([]);
+    });
+
+  });
 });
