@@ -10,7 +10,7 @@ exports.KEY = {
   'link_to': 'link_to',
 };
 exports.AUTHORIZED_CHAR = {
-  normal_chars: "a-zA-Z0-9",
+  normal_chars: "a-zA-Z0-9\+\?",
   special_chars: "âàçéèêîôùû:;/\\\-'\\\",\\\.…\\\s()",
   japanese_chars: "",
 };

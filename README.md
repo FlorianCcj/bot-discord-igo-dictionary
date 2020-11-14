@@ -81,3 +81,5 @@ Ultimately our igo_dictionnary bot will act like a giant online vivid and intera
 * https://www.jeudego.org/_php/affiche_dico_grand_tableau.php
 * https://senseis.xmp.net/?search=A 
 * https://francois-mizessyn.pagesperso-orange.fr/JeuDeGo/index/jargon.htm
+
+
