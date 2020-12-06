@@ -1,5 +1,5 @@
 const dictionary = require('./dictionary.utils');
-const {KEY} = require('../../config')
+const {KEY} = require('../../config');
 
 describe('dictionary.utils', () => {
   describe('is_word_exist', () => {
@@ -25,6 +25,7 @@ describe('dictionary.utils', () => {
         def1: {cat: ['image1']},
         def2: {cat: []},
         def3: {},
+        def4: {synonym: 'def1'},
       },
       KEY: KEY
     }
@@ -38,6 +39,10 @@ describe('dictionary.utils', () => {
       expect(dictionary.return_cat('def2', config)).toBe(config.DICTIONARY.def2[KEY['cat']]);
       expect(dictionary.return_cat('def3', config)).toBe(config.DICTIONARY.def3[KEY['cat']]);
     });
+
+    test('return the cat of the synonym if the word is a synonym', () => {
+      expect(dictionary.return_cat('def4', config)).toBe(config.DICTIONARY.def1[KEY['cat']]);
+    });
   });
   describe('return_def', () => {
     const config = {
@@ -45,6 +50,7 @@ describe('dictionary.utils', () => {
         def1: {def: 'image1'},
         def2: {cat: ''},
         def3: {},
+        def4: {synonym: 'def1'},
       },
       KEY: KEY
     }
@@ -58,6 +64,10 @@ describe('dictionary.utils', () => {
       expect(dictionary.return_def('def2', config)).toBe(config.DICTIONARY.def2[KEY['def']]);
       expect(dictionary.return_def('def3', config)).toBe(config.DICTIONARY.def3[KEY['def']]);
     });
+
+    test('return the def of the synonym if the word is a synonym', () => {
+      expect(dictionary.return_def('def4', config)).toBe(config.DICTIONARY.def1[KEY['def']]);
+    });
   });
   describe('return_image', () => {
     const config = {
@@ -65,6 +75,7 @@ describe('dictionary.utils', () => {
         def1: {image: 'image1'},
         def2: {image: ''},
         def3: {},
+        def4: {synonym: 'def1'},
       },
       KEY: KEY
     }
@@ -77,6 +88,10 @@ describe('dictionary.utils', () => {
     test('return the image if def have an image', () => {
       expect(dictionary.return_image('def1', config)).toBe(config.DICTIONARY.def1[KEY['image']]);
     });
+
+    test('return the image of the synonym if the word is a synonym', () => {
+      expect(dictionary.return_image('def4', config)).toBe(config.DICTIONARY.def1[KEY['image']]);
+    });
   });
   describe('return_thumbnail', () => {
     const config = {
@@ -84,6 +99,7 @@ describe('dictionary.utils', () => {
         def1: {thumbnail: ['thumbnail1']},
         def2: {thumbnail: ''},
         def3: {},
+        def4: {synonym: 'def1'},
       },
       KEY: KEY
     }
@@ -95,6 +111,10 @@ describe('dictionary.utils', () => {
 
     test('return the thumbnail if def have an thumbnail', () => {
       expect(dictionary.return_thumbnail('def1', config)).toBe(config.DICTIONARY.def1[KEY['thumbnail']]);
+    });
+
+    test('return the thumbnail of the synonym if the word is a synonym', () => {
+      expect(dictionary.return_thumbnail('def4', config)).toBe(config.DICTIONARY.def1[KEY['thumbnail']]);
     });
   });
 
