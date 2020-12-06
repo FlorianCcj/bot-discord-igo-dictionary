@@ -1,7 +1,7 @@
 {
   "aile de grue": {
-    "def": "Nom donné à une formation de pierres qui correspondent à un shimari et une extension du shimari sur les deux bord adjacents.\nL'exemple montre la position classique de l'aile de grue. Cette formation étant considérée comme extrêmement efficace, souvent l'adversaire empêche sa mise en oeuvre en occupant par exemple une des deux extensions.",
-    "image": "https://zupimages.net/up/20/28/dgqp.png",
+    "def": "Nom donné à une formation de pierres qui correspondent à un shimari et une extension du shimari sur les deux bord adjacents.\nL'exemple montre la position classique en triangle de l'aile de grue. Cette formation étant considérée comme extrêmement efficace, souvent l'adversaire empêche sa mise en oeuvre en occupant par exemple une des deux extensions.",
+    "image": "https://zupimages.net/up/20/49/bped.png",
     "cat": [
       "forme"
     ]
@@ -42,7 +42,8 @@
     ]
   },
   "bataille de ko": {
-    "def": "'Une bataille de ko est une séquence de coups joués dans le but de pouvoir gagner un ko, c'est-à-dire de pouvoir jouer les (en général) deux coups d'affilée au niveau du ko nécessaires pour y mettre fin.\nTypiquement, la séquence se déroule ainsi:\n1.      Noir prend le ko ;\n2.      Blanc (qui ne peut pas reprendre immédiatement) joue une menace de ko ;\n3.      Noir répond à la menace ;\n4.      Blanc prend le ko ;\n5.      Noir (qui ne peut pas reprendre immédiatement) joue une menace de ko ;\n6.      Blanc répond à la menace ;\n7.      Retour à 1.\nLa bataille se termine lorsqu'un joueur ignore une menace pour mettre fin au ko. Le prix à payer en échange est l'exécution de la menace.\n.",
+    "def": "'Une bataille de ko est une séquence de coups joués dans le but de pouvoir gagner un ko, c'est-à-dire de pouvoir jouer les (en général) deux coups d'affilée au niveau du ko nécessaires pour y mettre fin.\nTypiquement, la séquence se déroule ainsi:\n1.      Noir prend le ko ;\n2.      Blanc (qui ne peut pas reprendre immédiatement) joue une menace de ko ;\n3.      Noir répond à la menace ;\n4.      Blanc prend le ko ;\n5.      Noir (qui ne peut pas reprendre immédiatement) joue une menace de ko ;\n6.      Blanc répond à la menace ;\n7.      Retour à 1.\nLa bataille se termine lorsqu'un joueur ignore une menace pour mettre fin au ko. Le prix à payer en échange est l'exécution de la menace.\n.Il existe plusieur type de ko, comme les ko à étapes, les ko en cascade ou les ko de mille ans.\nL'exemple montre la forme de ko la plus élémentaire, pour pouvoir reprendre en carré blanc sedoit de jouer une menace. ",
+    "image": "https://zupimages.net/up/20/49/f6nj.png",
     "cat": [
       "sequence",
       "action"
@@ -119,11 +120,12 @@
     "synonym": "kiri"
   },
   "crosscut": {
-    "def": "Nom donné à la fois à l'action de couper en coupe croisée un hane de l'adversaire sur l'une de nos pierres et à la forme qui en résulte. Le crosscut à la réputation d'amener des séquences compliqués dans le sens ou le crosscut est composé de 4 pierres isolées les unes des autres ce qui peut donner potentiellement 4 groupes instable.\nL'exemple montre après la coupe en crosscut en 1 la forme typique du crosscut.\nAprès un crosscut en 3ème ligne par rapport au bord, le reflex standard consiste étendre notre pierre de 3ème ligne parallèlement au bord de manière à créer une capture et un shicho miai (Le coup A pour rendre B et C miai dans notre exemple.). En général après un crosscut, les atari renforcent l'adversaire et sont donc déconseillés sauf raison particulière. ",
+    "def": "Nom donné à la fois à l'action de couper en coupe croisée un hane de l'adversaire sur l'une de nos pierres et à la forme qui en résulte. Le crosscut à la réputation d'amener des séquences compliqués dans le sens ou le crosscut est composé de 4 pierres isolées les unes des autres ce qui peut donner potentiellement 4 groupes instable.\nL'exemple montre après la coupe en crosscut en 1 la forme typique du crosscut.\nAprès un crosscut en 3ème ligne par rapport au bord, le reflexe standard consiste à étendre notre pierre de 3ème ligne parallèlement au bord de manière à créer une capture et un shicho miai (Le coup A pour rendre B et C miai dans notre exemple.). En général après un crosscut, les atari renforcent l'adversaire et sont donc déconseillés sauf raison particulière. ",
     "cat": [
       "action",
       "forme"
     ],
+    "image": "https://zupimages.net/up/20/49/3s9e.png",
     "link_to": [
       "kiri",
       "hane"
@@ -178,16 +180,23 @@
   },
   "dos de tortue": {
     "def": "Nom donné à une forme très puissante qui résulte de la capture de deux pierres ennemies.On l'appelle dos de tortue de part sa ressemblance visuelle avec une carapace. Un adage dit qu'un dos de tortue vaut 60 points(par analogie avec le ponnuki qui vaudrait 30 points)\nDans l'exemple, après la capture des deux pierres blanches en 1, noir obtient un dos de tortue.",
-    "image": "https://zupimages.net/up/20/29/rdo9.png",
+    "image": "https://zupimages.net/up/20/49/l787.png",
     "cat": [
       "forme"
+    ],
+    "link_to": [
+      "ponnuki"
     ]
   },
   "double atari": {
-    "def": "Action correspondant au coup, ou coup joué de façon à créer un atari sur deux pierres ou groupes de pierres différents.Le double atari s'assure en principe de la capture d'au moins un des deux groupes mis en atari du fait que l'adversaire ne peut parer les deux atari à la fois, ne disposant que d'un seul coup jouable par tour de jeu.De ce fait, le double atari est une arme décisive l'or de passe d'armes tactiques. ",
-    "image": "https://zupimages.net/up/20/29/rdo9.png",
+    "def": " Coup joué de façon à créer un atari sur deux pierres ou groupes de pierres différents.Le double atari s'assure en principe de la capture d'au moins un des deux groupes mis en atari du fait que l'adversaire ne peut parer les deux atari à la fois, ne disposant que d'un seul coup jouable par tour de jeu.De ce fait, le double atari est une arme décisive l'or de passe d'armes tactiques.\nL'exemple montre le double atari joué en triange qui rend les captures en A et B miai ",
+    "image": "https://zupimages.net/up/20/49/13nh.png",
     "cat": [
       "action"
+    ],
+    "link_to": [
+      "atari",
+      "miai"
     ]
   },
   "double sente": {
@@ -198,32 +207,36 @@
     ]
   },
   "dragon": {
-    "def": "Un dragon est un groupe de pierre traversant une grande partie du goban. Souvent, on appelle dragon de grand groupes ceux qui ne sont pas encore vivant, même si cela n'est pas une obligation. Un adage dit, que même un dragon aveugle crache du feu, en effet la capture de grands groupe reste toujours un peu délicat aussi affaiblis qu'ils soient.",
-    "image": "https://zupimages.net/up/20/28/03i3.png",
+    "def": "Un dragon est un groupe de pierre traversant une grande partie du goban. Souvent, on appelle dragon de grand groupes qui ne sont pas encore vivant, même si cela n'est pas une obligation. Un adage dit, que même un dragon aveugle crache du feu, en effet la capture de grands groupe reste toujours un peu délicat aussi affaiblis qu'ils soient.\nL'exemple montre la célèbre partie intitulée neuf dragons jouant avec une perle disputée entre Shi Xiangxia et Cheng Lanru au 18ème siècle. On peut en effet voir très longtemps dans la partie neuf grands groupes au statut incertain que l'on peut appeler des dragons.",
+    "image": "https://zupimages.net/up/20/49/k60m.png",
     "cat": [
       "autre"
     ]
   },
   "faiblesse": {
     "def": "Intersection vide pouvant permettre à l'adversaire de prendre avantage localement à un moment donné.\nDans l'exemple, noir menace de jouer la coupe en A ce qui permettrait  de séparer les groupes de blanc ce pourquoi A constitue une faiblesse de la formation noire.",
-    "image": "https://zupimages.net/up/20/28/03i3.png",
+    "image": "https://zupimages.net/up/20/49/cee9.png",
     "cat": [
       "intersection"
     ]
   },
   "faux oeil": {
-    "def": "Un faux oeil est comme un oeil une intersection libre délimité par 4 pierres adjacentes d'une même couleur (du moins au centre, 3 pierres sur un bord, et 2 pierres dans un coin) mais dont au moins une de ces pierres peut se faire capturer par l'adversaire à plus ou moins long terme et ce de manière inéluctable ",
-    "image": "https://zupimages.net/up/20/28/03i3.png",
+    "def": "Un faux oeil est comme un oeil une intersection libre délimité par 4 pierres adjacentes d'une même couleur (du moins au centre, 3 pierres sur un bord, et 2 pierres dans un coin) mais dont au moins une de ces pierres peut se faire capturer par l'adversaire à plus ou moins long terme et ce de manière inéluctable.\nDans l'exemple, l'intersection marquée est un faux oeil. Le groupe entier n'ayant qu'un seul oeil et étant enfermé se trouve alors mort.",
+    "image": "https://zupimages.net/up/20/49/0yo7.png",
     "cat": [
       "intersection"
+    ],
+    "link_to": [
+      "oeil",
+      "vivant"
     ]
   },
   "fin de partie": {
     "synonym": "yose"
   },
   "forme de la fleur": {
-    "def": "Nom donné à une forme de keima ajoutée à un hazamatobi (pas d'éléphant). ll s'agit d'une forme lorsqu'elle est correctement jouée, légère et flexible par excellence. Souvent l'on invite l'adversaire à jouer dans la faiblesse de l'oeil d'éléphant le forçant alors à un résultat défavorable à l'échelle globale.",
-    "image": "https://zupimages.net/up/20/28/03i3.png",
+    "def": "Nom donné à une forme de keima ajoutée à un hazamatobi (pas d'éléphant). ll s'agit d'une forme lorsqu'elle est correctement jouée, légère et flexible par excellence. Souvent l'on invite l'adversaire à jouer dans la faiblesse de l'oeil d'éléphant le forçant alors à un résultat défavorable à l'échelle globale.\nDans l'exemple les pierres triangles constitue la forme de la fleur, quand blanc joue dans la faiblesse, il suffit à noir de jouer légèrement avec un keima du côté le plus faible, un kosumi ou autre, afin de ne pas se faire déchirer violament.",
+    "image": "https://zupimages.net/up/20/49/4kop.png",
     "cat": [
       "forme"
     ]
@@ -260,8 +273,8 @@
     ]
   },
   "fuseki kobayashi": {
-    "def": "Le fuseki kobayashi est un fuseki classique rendu populaire par le joueur professionnel du même nom kobayashi koichi qui l'a utilisé de manière consistante sur une période de sa carrière.\nL'exemple montre la position typique du fuseki kobayashi",
-    "image": "https://zupimages.net/up/20/34/dwkd.png",
+    "def": "Le fuseki kobayashi est un fuseki classique rendu populaire par le joueur professionnel du même nom kobayashi koichi qui l'a utilisé de manière consistante sur une période de sa carrière avec un certain succès.\nL'exemple montre la position typique du fuseki kobayashi.Le coup 7 marque le départ du fuseki kobayashi, qu'on retrouve aussi parfois joué en A.",
+    "image": "https://zupimages.net/up/20/49/jjqh.png",
     "cat": [
       "strategie"
     ],
@@ -328,10 +341,13 @@
     ]
   },
   "gueule du tigre": {
-    "def": "Bon angle vide. On donne ce nom à un coup de type tesuji qui rend de manière surprenante un angle vide correct.\nIl est souvent utilisé pour réaliser une coupe de manière appropriée, ou bien enlever ou conserver des libertés importantes lors d'un combat.\nPar opposition, le mauvais angle vide est appelé spécifiquement akisankaku.\nDans l'exemple, le coup en 1 est un guzumi et permet de rendre A et B miai (interchangeables), ce qui assure au moins la capture de pierres blanches d'un des deux côtés.",
-    "image": "https://zupimages.net/up/20/29/tzu6.png",
+    "def": "Nom donné à la forme de trois pierres de même couleur en kosumi les un par rapport aux autres. Il s'agit d'une forme solide qui a souvent pour but de protéger une coupe efficacement ou abîmer une pierre ennemie. Joué près du bord en première ligne, pour renforcer un groupe, on peut aussi l'appeler gueule de loup. Les japonais l'appellent aussi tête de chat, la forme la plus petite et solide de la famille des -tête de- avec un kosumi à la place du keima de la tête de chien.\nDans l'exemple, les pierre en triangle forment une gueule du tigre qui permet de renforcer les pierres du coin de noir, tout en abimant la pierre blanche adjacente.",
+    "image": "https://zupimages.net/up/20/49/uaip.png",
     "cat": [
       "forme"
+    ],
+    "link_to": [
+      "tete de chien"
     ]
   },
   "hamete": {
@@ -440,8 +456,8 @@
     ]
   },
   "handicap": {
-    "def": "Le handicap est un système au go qui permet à des joueurs de niveaux différents d'obtenir une partie relativement équitable. Plusieurs types de handicap existent. Le plus courant est de placer des pierres noires d'avance sur le goban au joueur le plus faible appelé pierres de handicap, placées traditionnellement sur les hoshi. On commence par remplir les hoshi des coins puis les hoshi des bords pour finir jusqu'à 9 pierres de handicap avec le tengen.\nAvoir des pierres placées à l'avances est un avantage certain au go, plus le nombre de pierre placées au départ est important, plus l'handicap est fort.Traditionnellement pour évaluer un handicap correct le nombre de pierre d handicap se doit de correspondre avec la différence de niveau en kyu ou en dan entre les deux joueurs. Kyu signifie même pierre en japonais.\nIl existe un autre système de handicap qui consiste à jouer sans komi (le joueur le plus fort prend alors les blancs, ce qui équivaut alors à une pierre de handicap) ou même alors attribuer un komi négatif arbitraire au joueur le plus fort.\nIl est aussi à noter que les parties à handicap entre joueur professionnel est rare sauf dans les temps anciens où il était justement un mécanisme régulateur du système de classement entre les joueurs professionnels.",
-    "image": "https://zupimages.net/up/20/34/wlj6.png",
+    "def": "Le handicap est un système au go qui permet à des joueurs de niveaux différents d'obtenir une partie relativement équitable. Plusieurs types de handicap existent. Le plus courant est de placer des pierres noires d'avance sur le goban au joueur le plus faible appelé pierres de handicap, placées traditionnellement sur les hoshi. On commence par remplir les hoshi des coins puis les hoshi des bords pour finir jusqu'à 9 pierres de handicap avec le tengen.\nAvoir des pierres placées à l'avance est un avantage certain au go, plus le nombre de pierre placées au départ est important, plus l'handicap est fort.Traditionnellement pour évaluer un handicap correct le nombre de pierre d'handicap se doit de correspondre avec la différence de niveau en kyu ou en dan entre les deux joueurs. Kyu signifie même pierre en japonais.\nIl existe un autre système de handicap qui consiste à jouer sans komi (le joueur le plus fort prend alors les blancs, ce qui équivaut alors à une pierre de handicap) ou même jusqu'à attribuer un komi négatif arbitraire au joueur le plus fort.\nIl est aussi à noter que les parties à handicap entre joueur professionnel est rare sauf dans les temps anciens où il était justement un mécanisme régulateur du système de classement entre les joueurs professionnels.\nL'exemple montre la position de départ traditionnelle d'une partie à 7 pierres de handicap, la 7ème pierre étant placée sur le tengen.",
+    "image": "https://zupimages.net/up/20/49/q0gd.png",
     "cat": [
       "autre"
     ]
@@ -521,6 +537,18 @@
     "image": "https://zupimages.net/up/20/28/y2lf.png",
     "cat": [
       "intersection"
+    ]
+  },
+  "influence": {
+    "def": "On qualifie d'influence les pierres ou les positions qui ont une influence sur le reste de la partie, le plus souvent une force dirigée vers l'extérieur.Le concept d'influence est généralement opposé à celui du territoire, pierres ou positions qui réalisent quelques points sur maison peu de potentiel de développement et d'influence sur le reste de la partie.Les pierres ou positions d'influence peuvent être utilisées comme force pour gérer des combats.Elles peuvent être utilisées pour menacer un grand territoire potentiel dans le cadre d'une stratégie moyo.Où alors pour contrer une influence ennemie. L'utilisation de l'influence est variée et fluctue au cours de la partie.\nL'exemple montre un joseki classique d'invasion san-san (le point 3-3 du goban)  où noir obtient une position d'influence qui se traduit par une force dirrigée vers le bord et le centre.Bien que noir ne fasse pas de point certains sur place, ses pierres seront utile pour la conduie future de la partie.",
+    "image": "https://zupimages.net/up/20/49/7u3e.png",
+    "cat": [
+      "autre"
+    ],
+    "synonym": [],
+    "link_to": [
+      "moyo",
+      "territoire"
     ]
   },
   "inoue": {
@@ -665,9 +693,18 @@
     ]
   },
   "menace de ko": {
-    "def": "Coup supposé sente joué dans le but de faire répondre l'adversaire localement afin de pouvoir ensuite reprendre un ko dans un contexte de bataille de ko.Parfois la menace de ko est ignorée, lorsque l'adversaire juge plus important de résoudre le ko, se faisant le joueur qui a joué la menace de ko y gagne l'exécution de cette menace.",
+    "def": "Coup supposé sente joué dans le but de faire répondre l'adversaire localement afin de pouvoir ensuite reprendre un ko dans un contexte de bataille de ko.Parfois la menace de ko est ignorée, lorsque l'adversaire juge plus important de résoudre le ko, se faisant le joueur qui a joué la menace de ko y gagne l'exécution de cette menace.\nL'exemple montre une menace de ko en triangle joué par Hong Jansik face à Lee Sedol dans la fameuse partie du ladder game.La menace est ici la capture des 8 pierres noires en atari pour gagner le reprise du ko en A.",
+    "image": "https://zupimages.net/up/20/49/0yub.png",
     "cat": [
       "titre"
+    ]
+  },
+  "miai": {
+    "def": "On appelle miai la situation où deux points (intersections) sont  interchangeables et de valeur équivalente. Si l'adversaire occupe un des deux points on peut occuper l'autre et inversement.Cela permet d'occuper de façon certaine une des deux options virtuellement.\nL'exemple montre qu'après le coup 1, les points A et B sont miai, si blanc prend le coin, noir peut s'étendre sur le bord et inversement.Le concept du miai permet donc à noir d'analyser que le coup en 1 n'est pas forcément sente pour la stabilité de son groupe.\nOn note aussi que le concept de points miai intervient aussi bien au fuseki et dans les joseki que dans le chuban (milieu de partie) et même dans les tsumego.",
+    "image": "https://zupimages.net/up/20/49/gv4s.png",
+    "cat": [
+      "strategie",
+      "situation"
     ]
   },
   "miroir go": {
@@ -695,8 +732,8 @@
     ]
   },
   "mur": {
-    "def": "Nom utilisé de manière standard pour qualifier un groupe de pierres plutôt solide et vertical perpendiculaire à un bord axé vers le centre.\nDans l'exemple, les pierres de noirs forment un mur allant du bord droit vers le centre.\nUn mur peut être de différentes tailles voire de différentes formes, il peut aussi comporter des faiblesses. Pour peu qu'il soit assez fort un mur est une très bonne force de dissuasion.En effet, un mur est utile pour créer de l'influence et attaquer les positions environnantes.La plupart du temps,  un mur pour créer une zone d'influence a besoin d'une extension.Un adage stipule que pour un mur de N pierres, l'extension adéquate est de N+1 pierres. Cependant en pratique, il faut toujours considérer la distribution particulière de la partie pour jouer la bonne extension.",
-    "image": "https://zupimages.net/up/20/34/4w9o.png",
+    "def": "Nom utilisé de manière standard pour qualifier un groupe de pierres plutôt solide et vertical perpendiculaire à un bord axé vers le centre.\nDans l'exemple, les pierres de noir en triangle forment un mur allant du bord droit vers le centre.Sa zone d'influence est retranscrite par les carrés.\nUn mur peut être de différentes tailles voire de différentes formes, il peut aussi comporter des faiblesses. Pour peu qu'il soit assez fort un mur est une très bonne force de dissuasion.En effet, un mur est utile pour créer de l'influence et attaquer les positions environnantes.La plupart du temps,  un mur pour créer une zone d'influence a besoin d'une extension.Un adage stipule que pour un mur de N pierres, l'extension adéquate est de N+1 pierres. Cependant en pratique, il faut toujours considérer la distribution particulière de la partie pour jouer l' extension que l'on préfère.",
+    "image": "https://zupimages.net/up/20/49/26cn.png",
     "cat": [
       "autre"
     ],
@@ -805,6 +842,16 @@
   "pillier de fer": {
     "synonym": "tetchu"
   },
+  "ponnuki": {
+    "def": "Nom donné à une forme puissante qui résulte de la capture d'une pierre ennemie.Le ponnuki est composé de 4 pierres de même couleur en kosumi les un par rapport aux autres ainssi que d'une pierre ennemie capturée. Ponnuki signifie littéralement diamant en japonais, à cause de la ressemblance visuelle de la forme du ponnuki avec un diamant et de part sa valeur. En effet adage dit qu'un ponnuki vaudrait 30 points grâce à la force que le ponnuki projette sur tout le goban.\nL'exemple montre la forme du ponnuki effectuée par les pierres noires après la capture de la pierre blanche avec le coup 1.Il est à noter que pour que le ponnuki soit véritable, il ne doit pas y avoir de pièrre noires suplémentaires dans la forme localement",
+    "image": "https://zupimages.net/up/20/49/fykd.png",
+    "cat": [
+      "forme"
+    ],
+    "link_to": [
+      "kosumi", "dos de tortue"
+    ]
+  },
   "sabaki": {
     "def": "Mot courant japonais qui désigne en cuisine la technique utilisée pour obtenir un filet de poisson en retirant du poisson ce qui n'est pas essentiel.\nAu go par analogie il désigne le nom donné à une technique spéciale utilisée en zone d'influence ennemie pour se stabiliser là où les techniques de stabilisation ordinaire ne sont pas disponibles.Le sabaki a pour objectif de se créer un groupe quasi-vivant ou difficilement attaquable dans une zone adverse en recourant souvent à des technique de sacrifice ou de shinogi.A terme, le sabaki peut conduire à créer des formes légère et flexible, afin de rendre le groupe faible plus difficilement attaquable grâce à  un accès plus rapide vers le centre, même si cela signifie laisser des petites faiblesses\nIl existe un adage japonais qui dit que pour réaliser un très bon sabaki, il faut commencer la séquence par un tsuke.En effet utilisant des coups de déstabilisation au niveau local, la technique de sabaki consiste à se stabiliser de manière flexible au niveau globale\nL'exemple illustre bien ce principe car,  pour s'installer dans la formation noire en triangle, blanc commence par un tsuke en 1 et utilise l'attaque de noir à son encontre au niveau locale pour se stabiliser de manière flexible au niveau global en tout en sacrifiant la pierre en 1.\nLe terme de sabaki est aussi utilisé dans les art martiaux pour désigner un mouvement efficace de déplacement qui absorbe une attaque adverse afin de mieux contre attaquer ce qui n'est pas sans rappeler la technique de sabaki au jeu de go.",
     "image": "https://zupimages.net/up/20/35/jmtk.png",
@@ -818,7 +865,7 @@
     ]
   },
   "position stable": {
-    "def": "Nom utilisé pour qualifier un groupe de pierre difficilement attaquable par l'adversaire, celui-ci ne pouvant pas obtenir un profit immédiat en attaquant une telle position. Souvent une position est dite stable lorsqu'elle possède au moins deux directions de jeu ou qu'elle possède un oeil et une direction.\nDans l'exemple, le groupe noir est stable mais il serait judicieux de rajouter une pierre (en A par exemple) pour ne pas se faire voler une direction , il deviendrait dans ce cas un groupe instable ou faible.",
+    "def": "Nom utilisé pour qualifier un groupe de pierre. Souvent une position est dite stable lorsqu'elle possède au moins deux directions de jeu ou qu'elle possède un oeil et une direction.\nDans l'exemple, le groupe noir est stable mais il serait judicieux de rajouter une pierre (en A par exemple) pour ne pas se faire voler une direction , il deviendrait alors un groupe instable ou faible.",
     "cat": [
       "situation"
     ],
@@ -829,6 +876,7 @@
     "cat": [
       "situation"
     ],
+    "image": "https://zupimages.net/up/20/49/nx53.png",
     "synonym": []
   },
   "sanrensei": {
@@ -847,8 +895,8 @@
     ]
   },
   "scorpion": {
-    "def": "Nom donné à une forme relativement moderne qui consiste à répondre après un hane par en dessous bloqué par l'adversaire par une gueule du tigre au lieu de la connexion habituelle.Son objectif principal est d'obtenir des ressouces tactiques futures plus intéressantes qu'avec une simple connexion, par exemple en menaçant un ko.\nL'exemple montre la forme typique du scorpion, ainsi nommé à cause de sa ressemblance visuelle avec l'animal.",
-    "image": "https://zupimages.net/up/20/28/jsib.png",
+    "def": "Nom donné à une forme relativement moderne qui consiste à répondre après un hane par en dessous bloqué par l'adversaire par une gueule du tigre au lieu de la connexion habituelle.Son objectif principal est d'obtenir des ressources tactiques futures plus intéressantes qu'avec une simple connexion, par exemple en menaçant un ko.\nL'exemple montre la forme typique du scorpion, ainsi nommé à cause de sa ressemblance visuelle avec l'animal.La forme du scorpion permet ainssi à blanc de jouer un cran plus loin le coup en 5 pour mieux stabiliser son groupe.",
+    "image": "https://zupimages.net/up/20/49/k7py.png",
     "cat": [
       "forme"
     ]
@@ -858,6 +906,16 @@
     "image": "https://zupimages.net/up/20/28/jsib.png",
     "cat": [
       "situation"
+    ]
+  },
+  "semeai": {
+    "def": "Nom donné à la situation où deux groupes de pierres ennemies s'encerclant mutuellement ne peuvent vivre qu'en capturant l'autre. Ainsi dans cette course à la capture de l'autre pour sa propre vie, le semeai est aussi appelé course aux libertés. Le résultat de cette course est soit la victoire de noir ou bien celle de blanc ou bien des deux à la fois (c'est à dire aucun des deux) avec un seki.Le seki crée une vie mutuelle du fait qu'auncun des deux joueurs ne peuvent poursuivre la course sans causer sa prorpre mort.Enfin un semeai peut avoir pour résultat des ko de toutes sortes et plus ou moins aventageux.\nL'exemple montre un semeai entre les pierres triangle et les pierres carrés qui ne peuvent vivre qu'en capturant l'autre. Le résultat de ce semeai dépend du trait, le premier joueur qui joue en A gagné le semeai et capture l'autre.Si blanc joue en A, Il lui suffit de de continuer la course et remplir les libertées extérieures (partagés entre un groupe impliqué dans le semeai et un groupe extérieur) pour gagner le semeai. Un adage dit qu'il faut commencer par remplir les libertés extérieures avant les libertés intérieures dans un semeai.Si noir joue en premier, il se fait un oeil en jouant en A ce qui signifie que toutes les libertées intérieures (communes aux deux groupes impliqués dans le semeai) lui apartiennent ce qui lui permet de l'emporter. Un adage dit que l'oeil gagne contre pas d'oeil dans le semeai.n note qu'avoir un gros oeil est encore plus avantageux, cela augmente d'autant  plus le nombre de libertés.",
+    "image": "https://zupimages.net/up/20/49/ds2v.png",
+    "cat": [
+      "situation"
+    ],
+    "link_to": [
+      "seki"
     ]
   },
   "semedori": {
@@ -895,7 +953,7 @@
     ]
   },
   "shinogi": {
-    "def": "Nom donné à une technique de sauvetage de groupe faible.Il désigne plus généralement le fait de réussir de manière brillante à vivre quand on est sous pression ou sévèrement attaqué sans endommager trop sérieusement ses autres groupes et de ce fait neutraliser totalement l'attaque de l'adversaire.",
+    "def": "Nom donné à une technique de sauvetage de groupe faible. Il désigne plus généralement le fait de réussir de manière brillante à vivre quand on est sous pression ou sévèrement attaqué sans endommager trop sérieusement ses autres groupes et de ce fait neutraliser totalement l'attaque de l'adversaire.",
     "cat": [
       "action"
     ]
@@ -915,8 +973,8 @@
     ]
   },
   "surconcentre": {
-    "def": "'Nom utilisé pour qualifier un groupe de pierres qui a un structure trop lourde, c'est à dire trop compacte. Un trop grand nombre de pierres dans une zone qui fait trop peu de points rend chacune des pierres inefficaces.Cela créer un déséquilibre au niveau global car le nombre de pierres joué par les deux joueurs étant égal, la position des pierres de l'adversaire couvre théoriquement des zones plus larges et serait donc plus efficace.\nDans l'exemple, noir une position surconcentré, son nobi en triangle est situé trop près de son mur de 3 pierres.",
-    "image": "https://zupimages.net/up/20/35/ybql.png",
+    "def": "'Nom utilisé pour qualifier un groupe de pierres qui a un structure trop lourde, c'est à dire trop compacte. Un trop grand nombre de pierres dans une zone qui fait trop peu de points rend chacune des pierres inefficaces.Cela créer un déséquilibre au niveau global car le nombre de pierres jouées par les deux joueurs étant égal, la position des pierres du joueur surconcentré couvre théoriquement des zones moins larges et serait donc moins efficace.\nDans l'exemple, noir a une position surconcentré, son nobi en triangle est situé trop près de son mur de 3 pierres.",
+    "image": "https://zupimages.net/up/20/49/3dz8.png",
     "cat": [
       "situation"
     ]
@@ -945,6 +1003,16 @@
   "takefu": {
     "synonym": "noeud de bambou"
   },
+  "territoire": {
+    "def": "Ensemble de points raisonnablement certain que possède un groupe de pierre ou un camp.Souvent la notion de territoire est opposée à celle de l'influence. En effet les position de  territoire ont un faible potentiel de devellopement et peu d'influence sur le reste de la partie\nL'exemple montre un groupe noir à 8 points de territoire certain.En effet  blanc ne peut pas vivre dans cette zone de noir ; il s'agit de son territoire. ",
+    "image": "https://zupimages.net/up/20/49/c3sw.png",
+    "cat": [
+      "forme"
+    ],
+    "link_to": [
+      "influence"
+    ]
+  },
   "tasuki fuseki": {
     "synonym": "fuseki croisé"
   },
@@ -962,7 +1030,7 @@
     ]
   },
   "tete de chien": {
-    "def": "Nom donné à la forme qui correspond à deux sauts de cheval (keima) combinés tel que l'on vois sur le diagramme.Cette forme a la réputation d'être très solide.",
+    "def": "Nom donné à la forme qui correspond à deux sauts de cheval (keima) combinés tel que l'on vois sur ce diagramme.Cette forme a la réputation d'être très solide.",
     "cat": [
       "forme"
     ],
@@ -972,7 +1040,7 @@
     "image": "https://zupimages.net/up/20/39/q4is.png"
   },
   "tete de cheval": {
-    "def": "Nom donné à la forme qui correspond à deux grands sauts de cheval (ogeima) combinés tel que l'on vois sur le diagramme",
+    "def": "Nom donné à la forme qui correspond à deux grands sauts de cheval (ogeima) combinés tel que l'on vois sur ce diagramme",
     "cat": [
       "forme"
     ],
@@ -982,7 +1050,7 @@
     "image": "https://zupimages.net/up/20/39/yrfm.png"
   },
   "tete de girafe": {
-    "def": "Nom donné à la forme qui correspond à deux très grands sauts de cheval (daidaigeima) combinés tel que l'on vois sur le diagramme",
+    "def": "Nom donné à la forme qui correspond à deux très grands sauts de cheval (daidaigeima) combinés tel que l'on vois sur ce diagramme",
     "cat": [
       "forme"
     ],
@@ -1106,7 +1174,7 @@
   },
   "wariuchi": {
     "def": "Signifie littéralement fractionnement.Il s'agit du nom donné à un coup d'invasion sur la 3ème ligne qui rend deux extension en nikken tobi au moins miai.Ce type d'invasion permet de séparer la formation de l'adversaire en s'assurant d'un groupe stable.\nDans l'exemple, le coup d'invasion en 1 est un wariuchi car il rend les deux extensions en nikken tobi A et B miai. ",
-    "image": "hhttps://zupimages.net/up/20/34/56fv.png",
+    "image": "https://zupimages.net/up/20/34/56fv.png",
     "cat": [
       "action"
     ],
