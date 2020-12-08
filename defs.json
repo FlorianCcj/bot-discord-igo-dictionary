@@ -42,7 +42,7 @@
     ]
   },
   "bataille de ko": {
-    "def": "'Une bataille de ko est une séquence de coups joués dans le but de pouvoir gagner un ko, c'est-à-dire de pouvoir jouer les (en général) deux coups d'affilée au niveau du ko nécessaires pour y mettre fin.\nTypiquement, la séquence se déroule ainsi:\n1.      Noir prend le ko ;\n2.      Blanc (qui ne peut pas reprendre immédiatement) joue une menace de ko ;\n3.      Noir répond à la menace ;\n4.      Blanc prend le ko ;\n5.      Noir (qui ne peut pas reprendre immédiatement) joue une menace de ko ;\n6.      Blanc répond à la menace ;\n7.      Retour à 1.\nLa bataille se termine lorsqu'un joueur ignore une menace pour mettre fin au ko. Le prix à payer en échange est l'exécution de la menace.\n.Il existe plusieur type de ko, comme les ko à étapes, les ko en cascade ou les ko de mille ans.\nL'exemple montre la forme de ko la plus élémentaire, pour pouvoir reprendre en carré blanc sedoit de jouer une menace. ",
+    "def": "'Une bataille de ko est une séquence de coups joués dans le but de pouvoir gagner un ko, c'est-à-dire de pouvoir jouer les (en général) deux coups d'affilée au niveau du ko nécessaires pour y mettre fin.\nTypiquement, la séquence se déroule ainsi:\n1.  Noir prend le ko ;\n2.  Blanc (qui ne peut pas reprendre immédiatement) joue une menace de ko ;\n3.  Noir répond à la menace ;\n4.  Blanc prend le ko ;\n5.  Noir (qui ne peut pas reprendre immédiatement) joue une menace de ko ;\n6.  Blanc répond à la menace ;\n7.  Retour à 1.\nLa bataille se termine lorsqu'un joueur ignore une menace pour mettre fin au ko. Le prix à payer en échange est l'exécution de la menace.\n.Il existe plusieur type de ko, comme les ko à étapes, les ko en cascade ou les ko de mille ans.\nL'exemple montre la forme de ko la plus élémentaire, pour pouvoir reprendre en carré blanc sedoit de jouer une menace. ",
     "image": "https://zupimages.net/up/20/49/f6nj.png",
     "cat": [
       "sequence",
@@ -830,6 +830,15 @@
       "action"
     ]
   },
+  "pairgo": {
+    "def": "Type de partie joué en équipe de deux joueurs contre deux joueurs.La partie se déroule normalement où chaque participant jouent alternativement un coup sur 4.C'est à dire que les joueurs de l'équipe noire jouent un coup de noir sur deux,de même que l'équipe blanche pour les coups de blanc.\nTraditionnellement le pairgo se doit d'être composé d'équipes mixtes avec un garçon et une fille dans chaque équipe. Avec des équipe libres pouvant être de même genre, on parle plutôt de rengo.Il existe dans les pays asiatiques d'important tournois de pairgo.",
+    "cat": [
+      "autre"
+    ],
+    "link_to": [
+      "rengo"
+    ]
+  },
   "pas d elephant": {
     "synonym": "hazamatobi"
   },
@@ -843,13 +852,14 @@
     "synonym": "tetchu"
   },
   "ponnuki": {
-    "def": "Nom donné à une forme puissante qui résulte de la capture d'une pierre ennemie.Le ponnuki est composé de 4 pierres de même couleur en kosumi les un par rapport aux autres ainssi que d'une pierre ennemie capturée. Ponnuki signifie littéralement diamant en japonais, à cause de la ressemblance visuelle de la forme du ponnuki avec un diamant et de part sa valeur. En effet adage dit qu'un ponnuki vaudrait 30 points grâce à la force que le ponnuki projette sur tout le goban.\nL'exemple montre la forme du ponnuki effectuée par les pierres noires après la capture de la pierre blanche avec le coup 1.Il est à noter que pour que le ponnuki soit véritable, il ne doit pas y avoir de pièrre noires suplémentaires dans la forme localement",
+    "def": "Nom donné à une forme puissante qui résulte de la capture d'une pierre ennemie.Le ponnuki est composé de 4 pierres de même couleur en kosumi les un par rapport aux autres ainssi que d'une pierre ennemie capturée. Ponnuki signifie littéralement diamant en japonais, à cause de la ressemblance visuelle de la forme du ponnuki avec un diamant et de part sa valeur. En effet adage dit qu'un ponnuki vaudrait 30 points grâce à la force que le ponnuki projette sur tout le goban.\nL'exemple montre la forme du ponnuki effectuée par les pierres noires après la capture de la pierre blanche avec le coup 1.Il est à noter que pour que le ponnuki soit véritable, il ne doit pas y avoir de pièrre noires supplémentaires dans la forme localement",
     "image": "https://zupimages.net/up/20/49/fykd.png",
     "cat": [
       "forme"
     ],
     "link_to": [
-      "kosumi", "dos de tortue"
+      "kosumi",
+      "dos de tortue"
     ]
   },
   "sabaki": {
@@ -878,6 +888,15 @@
     ],
     "image": "https://zupimages.net/up/20/49/nx53.png",
     "synonym": []
+  },
+  "rengo": {
+    "def": "Type de partie joué en équipe de deux joueur contre deux joueurs.La partie se déroule normalement mis à part le fait que  chaque participant jouent alternativement un coup sur 4.C'est à dire que les joueurs de l'équipe noire jouent un coup de noir sur deux, de même que l'équipe blanche pour les coups de blanc.\nLe rengo est composé d'équipes libres, pouvant être mixtes ou non. Avec seulement des équipe mixtes c'est à dire une fille et un garçon par couleurs, on parle plutôt de pairgo.",
+    "cat": [
+      "autre"
+    ],
+    "link_to": [
+      "rengo"
+    ]
   },
   "sanrensei": {
     "def": "Signifie littéralement '3 étoiles reliées'.\nDésigne le début de partie (fuseki) où l'on occupe 3 hoshi adjacents. Il s'agit d'un fuseki porté sur l'influence et très populaire, un des fuseki favoris de Takemiya Masaki reconnu pour son style cosmique.\nL'exemple montre un fuseki sanrensei possible.",
@@ -1088,6 +1107,13 @@
     "image": "https://zupimages.net/up/20/28/g3ik.png",
     "cat": [
       "action"
+    ]
+  },
+  "tewari": {
+    "def": "Nom donné à une technique d'analyse de positions par inversion de coups.L'idée est de reproduire une séquence de coups possible de la partie actuelle mais avec un ordre de coups différent.Si cet ordre de coup  fait apparaître de mauvais coups évident dans un camp, on peut juger la séquence entière comme mauvaise pour ce même camp.On peut aussi l'or du tewari omettre certain échanges , enlever ou ajouter des pierres de façons équivalentes afin de faciliter ou d'approfondir l'analyse.\nL'exemple montre la séquence de coups 1-6.En utilisant le principe du tewari, on remarque que joué dans l'ordre 1-2, 3-6 qui sont des coups normaux, noir ajoute l'échange 5-4, où le coup final en 4 est trop conservatif pour noir.Il s'agit d'un angle vide qui est assez inutile.On en conclu par tewari que la séuence de coups de départ 1-6 est mauvaise pour noir.",
+    "image": "https://zupimages.net/up/20/49/7acp.png",
+    "cat": [
+      "situation"
     ]
   },
   "tobi": {
